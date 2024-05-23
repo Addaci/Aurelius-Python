@@ -1,0 +1,26 @@
+# How to find a deposition [Ver.1.0]
+
+import xml.etree.ElementTree as ET
+
+def extract_folio_content(file_path, folio_number):
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    transcription_content = []
+    recording = False
+
+    for elem in root.iter():
+        if elem.tag == 'volfol' and folio_number in elem.text:
+            recording = True
+        if recording:
+            if elem.tag == 'Transcription':
+                transcription_content.append(elem.text)
+            if elem.tag == 'volfol' and folio_number not in elem.text:
+                break
+
+    return ''.join(transcription_content)
+
+# Usage example
+file_path = 'path_to_your_file.xml'
+folio_number = 'f.101r'
+content = extract_folio_content(file_path, folio_number)
+print(content)

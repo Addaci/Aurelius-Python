@@ -1,0 +1,2779 @@
+Here is the provided MediaWiki XML content enriched with NER tags for persons, places, ships, times, dates, occupations, material objects or trade goods, and ships:
+
+```xml
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en-gb">
+  <siteinfo>
+    <sitename>MarineLives</sitename>
+    <dbname>marinelives</dbname>
+    <base>http://www.marinelives.org/wiki/MarineLives</base>
+    <generator>MediaWiki 1.25alpha</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">MarineLives</namespace>
+      <namespace key="5" case="first-letter">MarineLives talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="104" case="first-letter">Type</namespace>
+      <namespace key="105" case="first-letter">Type talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>HCA 13/71 f.99r Annotate</title>
+    <ns>0</ns>
+    <id>6255</id>
+    <revision>
+      <id>86166</id>
+      <parentid>41004</parentid>
+      <timestamp>2015-05-21T17:58:07Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3843">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=99
+|Side=Recto
+|Status=Uploaded image; transcribed on 26/12/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/12/26
+|Editorial history=Edited on 11/05/2014 by Colin Greenstreet
+|Note=IMAGE: P1130400.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1130400.JPG}}
+|Transcription=brandewines, but what papers or writings were found aboard her hee
+saith hee knowth not./
+
+To the 4th hee saith, hee knoweth nothing thereof./
+
+To the 5th hee saith, the said shipp ''<ship>fortune</ship>'' was seized and taken by the said
+English friggat about a league from the English shoare, shee being not
+then under the Command of English fort or Castle, nor within shott of any
+Englishman of warr lying in or neere the downes for the defense and
+service of this Commonwealth./
+
+To the 6th hee saith, That the said two french men of warr never deserted
+the pursuite of the said shipp ''<ship>ffortune</ship>'', till shee was by the English
+frigatts Companie seized as aforesaid, which was about a league from
+the English coast according to this deponents judgement, but not within
+the Command of any such fort Castle or shipp as is interrate./
+
+<person>piere</person> '''4''' &amp;#91;MARKE&amp;#93; <person>rousel</person> &amp;#91;MARKE, RH SIDE&amp;#93;
+
+&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;
+
+The <date>25th day of February 1655 (sic)</date>/ &amp;#91;CENTRE HEADING&amp;#93;
+
+Examined upon the said Allegation&amp;#58;-/
+
+'''Rp. 4us'''
+
+'''<person>Charles Anquestil</person>''' of <place>Callice in ffrance</place> <occupation>Mariner</occupation> and
+<occupation>Gunner</occupation> of the said shipp the ''<ship>Mary Royall</ship>'' aged
+<date>40</date>&amp;#58; yeares or thereabouts a Wittnesse sworne and examined
+saith as followeth videlicet&amp;#58;-/
+
+To the first Article of the said Allegation hee saith, That hee well
+knoweth the shipp the ''<ship>golden Eagle</ship>'' arlate, and hath so knowne her for
+about two yeares and a half last past during which time shee hath been a man of
+warr constantly belonging to the Port of <place>Callice</place> under the Command of
+the arlate <person>Captaine John Bennard</person> of <place>Callice</place>, And saith hee hath
+knowne the shipp the ''<ship>Mary Royall</ship>'' as hereof the arlate <person>John Coverure</person>
+was and is <occupation>Captaine</occupation> for about <date>8. yeares</date> last past belonging also to the said
+Port of <place>Callice</place> and hath sewall warlike voiages in that time beene
+and served aboard her as <occupation>Gunner</occupation>, and saith that both the said Vessells
+belong to the Count of <place>Charrott</place> Governour of <place>Callice</place> ánd others Burghers
+there, <occupation>Armourers</occupation> and <occupation>Victuallers</occupation> of the said shipps. hee also saith That of his
+this deponents certaine knowledge the said shipps have made sewall voiages
+in Companie each of other upon warlike employments against the enemies
+of the Crowne of <place>ffrance</place>, being thereunto commissionated and authorized
+by the <person>Duke of Vandome</person> <occupation>Grand Admirall</occupation> of <place>ffrance</place>, and particularly
+this deponent in the quality aforesaid served in and aboard the said shipp
+the ''<ship>Goulden Eagle</ship>'', whereupon they sett out from <place>Callice</place> upon the
+<u><date>26th</date></u> day of <date>January</date> Last new style, And further saving his subsequent
+deposition cannot depose./
+
+To the 2d. Article of the said Allegation hee saith, That upon the <date>30th day
+of January last past</date> according to the new stayle or style of <place>ffrance</place>, the
+said two men of warr being in Companie at Sea upon such
+
+ their warlike
+employment espyed the shipp the ''<ship>ffortune</ship>'' in Controversy sayleing neere
+unto the french Coast about the Distance of one league and a half
+from the Cape of Griniay, being the direct way which shipps bound from
+the Ports of <place>ffrance</place> for <place>fflanders</place> doe usually steere, especially in times of
+hostility betwixt the English and Spaniards, expressly to avoyd the English
+And saith, That having espied the said shipp ''<ship>ffortune</ship>'' the said two french
+men of warr under their french Colours respectively gave chase unto her
+}}</text>
+      <sha1>4pxi6d1arzqty3ic1977jiqfhi0aasn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.99v Annotate</title>
+    <ns>0</ns>
+    <id>6563</id>
+    <revision>
+      <id>86169</id>
+      <parentid>86168</parentid>
+      <timestamp>2015-05-21T18:00:56Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3734">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=99
+|Side=Verso
+|Status=Uploaded image; transcribed on 08/08/2014
+|First transcriber=Colin Greenstreet
+|First transcribed=2014/08/08
+|Editorial history=Edited on 08/08/2014 by Colin Greenstreet
+|Note=IMAGE: P1130401.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1130401.JPG}}
+|Transcription=and chased her for about 6. howers. the Companie of the said shipp in the
+meane time using all possible diligence, and making all the sayle they could
+to escape from them; in which pursuite the said french Captaine caused
+7. peeces of Ordnance to be discharged with bullets att or against the
+said shipp ''<ship>fortunes</ship>''. The premisses this deponent well knoweth being an
+Eye witnesse of and acting therein.
+
+To the third hee saith, That the said ffrenchmen of warr closely pursuing
+the said shipp ''<ship>fortune</ship>'', and there being not any probability of her escape
+from thence, or recovereing any Port of <place>fflanders</place>, shee steered her Course
+towards the Coast of <place>England</place>, the Master and Company of her, (as this deponent
+is fully convinced) hoping and intending to gett under the protection of some
+shipp or shipps of warr in the service of this Commonwealth, during all which
+fflight the said frenchmen of warr incessantly pursued and made after the
+sayd shipp ''<ship>fortune</ship>'', and were readie to have Laid her aboard, and taken her
+and her Ladeing. The premisses hee knoweth upon the grounds of knowledge
+predeposed. And further cannot depose&amp;#58;-/
+
+To the 4th article hee saith, That during the said fligght, pursuite and
+discharge of Ordnance by the said frenchmen of warr against the said
+shipp ''<ship>fortune</ship>'', and English frigatt in the immediate service of this
+Commonwealth rideing at an anchor neere <place>dover</place>, weighed anchor
+and came up with them&amp;#58; and the Officers of the said English man of warr
+having spoken with the french Captaines, and understanding they were in
+pursuite of the said shipp ''<ship>fortune</ship>'' as being a Shipp bound with her
+Lading to some of their enemies Ports in <place>fflanders</place> the said English
+frigatt left them, the Officers thereof bidding them pursue their Prize
+which they did, and shortly after another English friggat came up to
+them, when the said frenchmen of warr were ready to have boarded and
+taken the said shipp ''<ship>fortune</ship>'', and were but about a muskett shott
+distance from her, but the said English frigatt discharging two
+Gunns, the said frenchmen of warr in obediance to her lowred their
+sailes, and attended her coming up, and the said friggatt being so come
+up immediately sent men aboard the said shipp ''<ship>fortune</ship>'', and became
+possessed of her and her ladeing, thereby depriveing and divesting the
+french of the same. The premisses hee well knoweth, being an
+Eyewittnesse thereof&amp;#58;-
+
+To the 5th article hee saith, That the aid shipp ''<ship>fortune</ship>'' passing so close to
+the Coast of <place>ffrance</place> when first espyed and pursued by the said french
+men of warr, had in all probability passed free and
+undiscovered by the English, in case shee had not beene so chased, and
+in the chase steered her Course towards the Coast of <place>England</place> aforesaid
+the french coast being now the usuall course of shipps bound from <place>france</place>
+to <place>fflanders</place> purposely to prevent seizure by the English, And so much hee
+saith is well knowne to a Mariner useing and acquainted with that
+Navigation.
+
+To the 6th hee saith, That in Case the said English friggat had not, as
+predeposed, come up and retarded the ffrench, and putt men aboard the
+said shipp ''<ship>fortune</ship>'', the said frenchmen of warr had immediately
+boarded and taken her and her lading it being impossible shee should
+have escaped them being at the distance predeposed, and then &amp;#91;?retarded GUTTER&amp;#93;
+(by
+}}</text>
+      <sha1>djvbsae9s2jsz5nwr7t3ux5v9zj0so0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.100r Annotate</title>
+    <ns>0</ns>
+    <id>6450</id>
+    <revision>
+      <id>86171</id>
+      <parentid>81557</parentid>
+      <timestamp>2015-05-21T18:02:22Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3479">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=100
+|Side=Recto
+|Status=Uploaded image; transcribed on 20/06/2013
+|First transcriber=Colin Greenstreet
+|First transcribed=2013/06/20
+|Editorial history=Edited on 20/06/2013 by by Jill Wilcox and on 30/04/2014 by Colin Greenstreet
+|Note=IMAGE: P1130402.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1130402.JPG}}
+|Transcription=by lowring their sayles in honour and ob&amp;#91;XXXX&amp;#93;ance and to the English
+Colours and that they could with ease have taken the said shipp
+without any ayd or assistance of or from the said English, The
+premisses hee knoweth and declareth upon the grounds aforesayd
+And further, saving his subsequent deposition, cannot depose&amp;#58;
+
+To the 7th and 8th articles of the said Allegations hee saith, That presently
+upon the said seizure, the Captaines of the said frenchmen of warr
+went aboard the said English frigat, with their respective &amp;#91;?Commons&amp;#93;
+to demand and reclaime the said shipp <ship>fortune</ship> and lading as their
+Prize, and being by the Officers of that friggatt referred to the
+English Commander in Chief then being in the Downes, they went
+also aboard him to the same effect, and were answered by the said
+Commanders that hee could not deliver them the said shipp ''<ship>fortune</ship>''
+and Lading, till hee had writt about them, and received advice from
+London, whereupon they should have the said shipp and Lading, in
+case they should be found Lawfull prizes to them, the said french
+Capt
+
+aines and Companies, The premisses hee saith hee partly saw,
+and partly understood from the said Captaine <person>John &amp;#91;?Coveruset&amp;#93;</person> at his
+returne from the said English Officers aboard his said shipp the
+''<ship>Mary Royall</ship>'', And further cannot depose./
+
+To the 9th hee saith, the said shipp the ''<ship>Goulden Eagle</ship>'' was and is
+as shipp of 100&amp;#58; tunns or thereabouts, and had about 100. men, and
+12. gunns aboard her at the time of the pursuite and Capture
+aforesaid, and that the said shipp ''<ship>Mary Royall</ship>'' was and is a
+Vessell of about 70 tunns, having aboard her at the time
+aforesaid about 100. men, and 9. peeces of Ordnance; and were
+either of them able enough to have overpowred and taken the said
+shipp ''<ship>fortune</ship>'', shee having onely about 9. or 10. men, and five gunns
+aboard her. and in regard of her lading being not in a capacity to
+have entertained a fight with them or either of them, This hee well
+knoweth being a person who hath for many yeares been used to the sea in
+warlike imploying. And further saving his foregoing deposition hee
+cannot depose./
+
+To the 10th hee saith, That the said shipp the ''<ship>fortune</ship>'' her lading in
+Controversy consisted principally in wynes and brandewine of
+<place>Nantes</place>, but by whom or what Countriemen the same were there
+Laden, or for whose particular accompt they went, hee knoweth not
+otherwise, than that by reason of her said flight, And according to
+common report, since the said Vessell hath been brought to this
+Port to unlade, the same belonged to <place>fflandrians</place> Subjects of the
+<person>king of Spaine</person>. And further cannot depose./
+
+To the last hee saith, his foregoing deposition is true&amp;#58;/
+
+To the Crosse Interrogatorieies&amp;#58;- &amp;#91;CENTRE HEADING&amp;#93;
+
+To the first hee saith, hee never knew the shipp <ship>fortune</ship> untill the
+time of the Chase predeposed&amp;#58;-/
+
+To the second hee saith hee did not see nor was at the lading of the
+Lading of the goods controverted; nor knoweth any of the persons
+interrate nor whose Subjects they are./
+}}</text>
+    <sha1>c6nqozpxo1qxdfn8lhxz3iwglevp910</sha1>
+    </revision>
+  </page>
+<page>
+    <title>HCA 13/71 f.100v Annotate</title>
+    <ns>0</ns>
+    <id>5236</id>
+    <revision>
+      <id>86173</id>
+      <parentid>81558</parentid>
+      <timestamp>2015-05-21T18:04:25Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3985">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=100
+|Side=Verso
+|Status=Uploaded image; transcribed on 31/08/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/08/31
+|Editorial history=Edited on 30/04/2014 by Colin Greenstreet
+|Note=IMAGE: P1130403.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1130403.JPG}}
+|Transcription=To the third hee saith the said shipp the ''<ship>fortune</ship>'' her Lading
+consisted of <material>wynes and brandewines</material>, as hath since appeared to this
+<person>deponent</person> and contests upon her dischargeing here in this <place>Port of London</place>
+And knoweth nothing nothing of any such papers or writeings as
+is interrate&amp;#58;-
+
+To the 4th hee saith hee knoweth nothing thereof.
+
+To the 5th hee saith the said shipp ''<ship>fortune</ship>'' was taken by the said English
+friggat about a league off of the <place>English Coast</place>, shee not being then
+under the Command of any English fort or Castle, nor within shott of any English
+man of warr, that Lay at anchor thereabouts./
+
+To the 6th hee saith, the said frenchmen of warr never left pursuite of the
+said shipp ''<ship>fortune</ship>'', till shee was seized and taken from them as aforesaid
+which was as aforesaid about a league from the <place>English shoare</place>, and not &amp;#91;?more&amp;#93;
+any such Command or shott as is interrate
+
+<person>Charles fff anquestil</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+
+&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;
+
+The same say examined upon the said Allegation,/ &amp;#91;CENTRE HEADING&amp;#93;
+
+'''Rp. 5.us/'''
+
+'''<person>John Mercier</person>''' of <place>Callice in france</place> <occupation>Mariner</occupation> <occupation>Quartermaster</occupation>
+of the sayd shipp ''<ship>Goulden Eagle</ship>'' aged <date>29. or thereabouts</date> a Wittnesse
+sworne and examined saith as followeth./
+
+To the first Article of the said Allegation hee saith, That hee this deponent
+hath well knowne the shipp the ''<ship>Goulden Eagle</ship>'' allegate, whereof the arlate
+<person>John Bernard</person> was and is <occupation>Captaine</occupation> and <occupation>Commander</occupation> ever since shee hath
+beene a man of warr belonging to the Port of <place>Callice</place> in <place>ffrance</place>, which had
+bin for about <date>2. yeares and a half</date> last past, for all which time the arlate
+<person>Count of Charrot</person> <occupation>Governour</occupation> of <place>Callice</place> hath bin and is generally reputed
+Proprietor thereof. as also of the shipp the ''<ship>Mary Royall</ship>'' allegate whereof
+the arlate <person>John Coverne</person> was and is <occupation>Commander</occupation> which shipp hath belonged
+to the said Port of <place>Callice</place> for about <date>28 yeares</date> last past, And saith hee hath
+knowne the said shipps proceed in Companie upon sevrall voiages from the Port
+upon warlike imployments against the <person>Spaniards</person> and other enemies of the
+Crowne of <place>france</place>, more particularly the <date>26th day of January</date>
+Last new style the said shipps proceeded togeather to Sea
+being thereunto Commissionated by the <person>Duke of Vandome</person> <occupation>Grand Admirall</occupation>
+of <place>ffrance</place>, which Commons this deponent hath often seene aboard the said &amp;#91;?shipps GUTTER&amp;#93;
+respectively, and particularly that of the ''<ship>Goulden Eagle</ship>'' in her said last
+Voiage having made Copies thereof, and serving aboard the said shipp in the
+quality of <occupation>Quarter Master</occupation> as aforesaid. And further deposeth not
+
+To the second article hee saith, That the said shipps being at Sea in &amp;#91;?Course GUTTER&amp;#93;
+as aforesaid duely and legally Commissionated did upon the <date>30th day of
+January last past</date> new style discover and came in view of the shipp
+the ''<ship>fortune</ship>'' allegate shee being under sayle within about a league and a halfe
+from the <place>Cape of Grinay</place> coast of <place>ffrance</place>, shapeing her direct Course
+for <place>Dunquirke</place> or some other Port of <place>fflanders</place> in obedience to the <person>King
+of Spaine</person>, whereupon they immediately gave her chase, they bearing the
+french Colours and pursueing her by the space of about <time>6. howers</time>. in and
+during which pursuite shee made all possible sayle to escape from them
+the said frenchmen of warr, which discharged <material>7. peeces of Ordnance
+with bulletts</material> at and against her, to make her strike sayle and submitt to
+them. Of the premisses hee saith hee hath assured knowledge for that hee
+served
+}}</text>
+      <sha1>g69ze17hm3xaae0jz2ryuvxte3el20r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.101r Annotate</title>
+    <ns>0</ns>
+    <id>6173</id>
+    <revision>
+      <id>85475</id>
+      <parentid>81559</parentid>
+      <timestamp>2015-05-20T09:24:14Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3861">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=101
+|Side=Recto
+|Status=Uploaded image; transcribed on 30/08/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/08/30
+|Editorial history=Edited on 27/04/2014 by Colin Greenstreet
+|Note=P1130404.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1130404.JPG}}
+|Transcription=Served and was aboard the said Shipp the ''<ship>Goulden Eagle</ship>''
+during the discovery flight and pursuite predesposed
+
+To the third Article he
+
+e saith, That there being noe visible probabilitie
+that the said shipp ''<ship>fortune</ship>'' should escape from the said two frenchmen of
+warr, nor recover <place>Dunquirke</place> or any other Port of <place>fflanders</place>, (being so closely pursued) the
+Master and Companie of the said shipp ''<ship>fortune</ship>'' steered their Course towards
+the Coast of <place>England</place>, intending, as this deponent in Conscience is most firmely
+assured, to gett under the protection of some English shipp or shipps of
+warr, the said frenchmen of warr still pursueing, and comeing neare to
+the said shipp ''<ship>fortune</ship>'' in a readinesse to have layd her aboarde and taken
+her and her lading, The premisses hee declareth upon the grounds of
+knowledge and conviction in Conscience aforesaid. And further
+cannot depose./
+
+To the 4th hee saith, That during the said pursuite and upon discharge of
+severall gunns as predesposed, an English frigatt rideing at anchor neere
+or in <place>Dover</place> roade weighed anchor and made up towards them; and the Officers thereof haveing
+spoken both to the Captaines of the said frenchmen of warr, and to the
+Master of the said shipp <ship>fortune</ship>, and being informed that the said shipp
+''<ship>fortune</ship>'' was poursued by them in order to take her and her lading, as belonging
+to the enemies of the Crowne of <place>ffrance</place> and bound for <place>fflanders</place> the said
+frigat without any opposition departed and returned for the roade of
+<place>Dover</place>, and another English frigat in the immediate service of this
+Commonwealth comeing from the Westward of <place>England</place> and dischargeing <material>two
+gunns</material>, the said frenchmen of warr in obeisance and respect to her
+lowered their sailes just as they were within muskett shott or thereabouts
+from the said shipp <ship>fortune</ship>, and readie to have boarded and taken her,
+of which lowring their sayles the said English frigat takeing the oportunity
+sent men aboard the said shipp <ship>fortune</ship>, who possessed themselves of her
+and her lading, and brought them for <place>England</place> depriving the said
+frenchmen of warr thereof. The premisses hee well knoweth
+being present at the same in the condition predeposed./
+
+To the 5th hee saith, That the said shipp ''<ship>fortune</ship>'' according to the Course shee
+shaped when first discovered as aforesaid, was undoubtedly bound for
+<place>Dunquirke</place> or some other Port of <place>Spanish fflanders</place> shee then being neere
+unto the Coast of <place>ffrance</place> which is the usuall Course of shipps bound
+from <place>france</place> for <place>fflanders</place> doe take during hostility betweene <place>England</place> and
+<place>Spaine</place>, thereby the better to escape the being discovered and seized by
+the English, so that in all probability the said shipp ''<ship>fortune</ship>'', if shee had
+not bin pursued as aforesaid, had passed undiscovered by the English, and
+had attained her desired port in <place>fflanders</place> The premisses hee declareth
+upon the grounds before expressed, and for that being a seafareing person
+and accustomed, to the coast aforesaid hee is to the coast aforesaid well versed in the <place>fflandrian</place> practizes in order to their
+security in such cases. And further cannot depose./
+
+To the 6th hee saith, That in case the said shipp ''<ship>fortune</ship>'' and lading
+had not bin boarded and taken as they were by the said English
+friggatts Companie, the said two frenchmen of warr were in a
+readinesse immediately to have boarded and taken them, they the
+being at about a muskett shott distance from her, and, without any
+ayd or assistance, were then sufficient to have overpowred and taken
+(her
+}}</text>
+      <sha1>fxl4cm28ysh1gd2dqlafwgmj4tzyqfg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.101v Annotate</title>
+    <ns>0</ns>
+    <id>5786</id>
+    <revision>
+      <id>85477</id>
+      <parentid>85372</parentid>
+      <timestamp>2015-05-20T09:25:14Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3703">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=101
+|Side=Verso
+|Status=Uploaded image; transcribed on 05/09/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/09/05
+|Editorial history=Edited on 17/06/2013  by Jill Wilcox and on 27/04/2014 by Colin Greenstreet
+|Note=IMAGE: P1130405.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1130405.JPG}}
+|Transcription=her, had they not in obeissance as aforesaid Lowred sailes, and attended
+the said English frigatt, And this hee saith and affirmeth. to be true and
+notorious of this deponents sight and certaine knowledge
+
+To the 7th and 8th articles of the said Allegation hee saith, That presently
+upon the said Capture made by the said English friggatt, the Captaines of
+the said frenchman of warr went aboard the said friggatt and demanded the
+said shipp <ship>fortune</ship> and Ladeing as a Prize of right to them belonging, but
+being denyed the same went shortly after, aboard the English then Commander
+in chief rideing in the downes about <place>two leagues</place> distant from the said
+seizure, where having also demanded the said shipp <ship>fortune</ship> and Lading
+as their just and lawfull Prize, the said Commander&amp;#58; (as this deponent underst&amp;#91;?andeth GUTTER&amp;#93;
+from the said <person>Captaine Bonnard</person> upon his returne) told them hee must
+write to <place>London</place> about it, and if hee received order from his Superiors
+to restore the same to the said french Captaines hee would doe it, otherwise
+hee could not discharge her being shee was boarded and taken by the
+English, or to that or the Like effect, And further cannot depose
+
+To the 9th hee saith, the said shipp ''<ship>Goulden Eagle</ship>'' was and is a shipp of
+about <date>100. tunnes</date> burthen, having aboard her about <date>100. eaters</date>, and <material>12
+gunns</material>, and the said shipp ''<ship>Mary Royall</ship>'' was and is of the burthen of
+about <date>70. tonnes</date>, and had aboard her at the time aforesaid about <date>100. eaters</date>
+and <material>nine peeces of Ordnance</material>, and that either of the sayd shipps alone was
+sufficiently able to have taken the shipp <ship>fortune</ship>, if they had not
+bin hindred and retarded by the English as aforesaid, The reasons of
+his knowledge hee hath predeposed/
+
+To the 10th hee saith, That as this deponent and contests have observed justlie
+their late coming to <place>London</place>, the said shipp ''<ship>fortune</ship>'' being unladen in the
+<place>Port</place>, had in her a lading of <material>wynes and brandewine</material> of <place>Nantes</place>, and
+were certainely bound for <place>fflanders</place> as aforesaid. but to whom consigned
+or for whose particular accompt or accompts hee saith hee knoweth not
+And further cannot depose./
+
+To the last hee saith his foregoing deposition is true
+
+To the Crosse Interrogatories/&amp;#58;- &amp;#91;CENTRE HEADING&amp;#93;
+
+To the first hee saith, hee never knew
+
+ the shipp <ship>fortune</ship> interrate
+till the time of the chase and seizure predeposed
+
+To the second, hee saw not the lading nor knoweth any of the &amp;#91;?persons interate GUTTER&amp;#93;
+
+To the third hee referreth To his foregoeing deposition, And further knoweth &amp;#91;?not GUTTER&amp;#93;
+
+To the 4th hee saith hee was not aboard the shipp <ship>fortune</ship> interrate,
+And therefore cannot depose./
+
+To the 5th hee saith, the said seizure was made about a league from
+the <place>English coast</place>, but not under the Command of any English fort nor
+Castle; nor under shott of any English shipp or shipps of warr lyeing
+at anchor for the defence of this Commonwealth./
+
+To the 6th hee saith, the said frenchmen of warr never deserted the &amp;#91;?pXXXX GUTTER&amp;#93;
+aforesaid, till the Capture predeposed, and that their further pursuite
+of the ''<ship>fortune</ship>'' was about a league distance from the <place>English Coast</place>
+but not under any such Command or shott as is interrate&amp;#58;-/
+
+Repeated in Court with his precontests/
+
+<person>Feban Merchier</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+}}</text>
+      <sha1>icftrmbusorf8826tw0wz5wxhtxh64s</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.102r Annotate</title>
+    <ns>0</ns>
+    <id>5819</id>
+    <revision>
+      <id>130021</id>
+      <parentid>85479</parentid>
+      <timestamp>2019-07-20T14:48:50Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3315">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=102
+|Side=Recto
+|Status=Uploaded image; transcribed on 18/11/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/11/18
+|Editorial history=Edited on 27/04/2014 by Colin Greenstreet
+|Note=IMAGE: P1080973.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1080973.JPG}}
+|Transcription=The <date>27th ffebruary 1655</date>
+
+<person>Browning</person> against <person>Vanderpost</person>&amp;#125;
+and <person>Company</person>&amp;#125;
+
+Exámined upon an allegation givein in by
+<person>Clements</person> on the behalfe of <person>Browning</person>
+
+'''Rp. .j.'''
+
+'''<person>James Downe</person>''' of <place>London</place> <occupation>Marchant</occupation> living in
+<place>Bishopsgate streete</place> at the signe of the <material>Bull</material>
+aged <date>38 yeares</date> or thereabouts sworne and examined
+
+To the first article of the said allegation hee saith and deposeth that for theise
+<date>twenty yeares</date> last past hee this deponent hath well knowne the
+custome and manner of trade of the English at <place>Cadiz</place> and of the duties
+paid and payable to the <occupation>masters</occupation> and <occupation>Pursers</occupation> of the English shipps there
+hee having for that space frequented that port both as a <occupation>merchant</occupation>
+and as a <occupation>Purser</occupation> of shipps, and for <date>fourteene yeeres</date> of that space
+residing there, and thereby hee well knoweth that it hath bin and
+is there use and custome that such <occupation>masters</occupation> or <occupation>Pursers</occupation> of any
+shipps whereof English men are owners as trade or lain there, being imployed on shore about
+the owners busines, have bin for all the said time and are allowed during
+such their imployment on shoare about the shipps businesse as to
+retaine freight or to let out the shipp to freight or the like a <material>peece
+of eight</material> by the day and for each day, for his or their
+expens and charges on shoare over and above his or their wages
+contracted for, and hee for his part having bin <occupation>Purser</occupation> there in <date>two
+shipps</date> (whereof English men were owners) was allowed the same and
+after the same rate, And this custome as he hath bin informed hath
+bin observed time out of minde, and is well knowne to and
+notorious amongst <occupation>merchants</occupation> and <occupation>mariners</occupation> trading to that port,
+And otherwise hee cannot depose.
+
+<person>James Downe</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+
+Repeated before <person>doctor Godolphin</person>
+
+&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;
+
+The <date>28th</date> of the same
+
+Exámined upon the foresaid allegation.
+
+'''2'''
+
+'''Rp.'''
+
+'''<person>John Stephens</person>''' of <place>London</place> <occupation>Mariner</occupation>, aged <date>46 yeeres</date> or
+thereabouts sworne and exámined.
+
+To the first article of the said allegation hee saith and deposeth that hee
+this deponent as a person imployed in sea faring affaires and
+<occupation>mariner</occupation> hath for theise <date>twenty yeares</date> last frequented the port of
+<place>Cadiz</place> in <place>Spaine</place>, and thereby well knoweth that the <occupation>masters</occupation> an or
+<occupation>Pursers</occupation> of any shipp (whereof English men are owners) being
+imployed on shore in the <occupation>masters</occupation> and shipps busines have bin from time
+to time and are by custome and ought to be allowed a <material>peece of eight
+per diem</material> for each and every day of such their being present in that
+imployment towards their charges and expenses, over and above their
+wages, and this deponent both as a <occupation>master</occupation> and as a <occupation>Purser</occupation> of
+English shipps hath alwaies and from time to time bin allowed the same
+with out contradiction. and as this deponent hath heard, this custome
+hath bin used and observed time out of minde. And otherwise hee
+cannot depose.
+
+To
+}}</text>
+      <sha1>oidix3ao5ms166ogntyxpgmm13k2rn7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.102v Annotate</title>
+    <ns>0</ns>
+    <id>5924</id>
+    <revision>
+      <id>129601</id>
+      <parentid>85481</parentid>
+      <timestamp>2018-08-20T19:26:39Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3466">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=102
+|Side=Verso
+|Status=Uploaded image; transcribed on 26/12/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/12/26
+|Editorial history=Edited on 04/06/13 by Jill Wilcoxon 08/09/13 and on 27/04/2014 by Colin Greenstreet
+|Note=IMAGE: P1140348.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1140348.JPG}}
+|Transcription=To the second hee saith that about this <time>time</time> hee knoweth his
+<person>deponent</person> met the <person>producent Thomas Browning</person> at <place>Cadiz</place> in the
+shipp the ''<ship>ffortune</ship>'' arlate whereof the said <person>Browning</person> was the <occupation>master</occupation>,
+and where with the said <person>Browning</person> from from <place>Santa Cruz</place> as this <person>deponent</person> was informed
+by him, And while hee was soe at <place>Cadiz</place> this <person>deponent</person> sawe the said
+<person>Browning</person> severall dayes on shoare about his shipps busines, And
+otherwise hee cannot depose.
+
+To the Interrogatories. &amp;#91;CENTRE HEADING&amp;#93;
+
+To the first hee saith hee cometh in the instance of the said <person>Thomas
+Browning</person> to speake the truth in this cause, and that hee hath noe
+relation at all to him; and saith hee this <person>deponent</person> sawe the said
+<person>Browning</person> severall times in the house of the interrate <person>Mr Wilson</person> in
+<place>Cadiz</place> about the shipps business, and that this rendent was not in her
+that voyage, And otherwise hee cannot depose.
+
+To the second hee saith that as hee hath heard the said <person>Thomas
+Browning</person> had an Adventure of his owne on board the said shipp
+the said voyage, and this <person>deponent</person> holdeth the said allowance of
+a <material>peece of eight</material> per day in the case aforesaid to be a duety from the
+owners and not a gratuitie, in as much as a <occupation>master</occupation> or <occupation>purser</occupation> cannot
+well be at lesse daily expense on
+shoare; and hee doth not conceive that the owners having a factor
+on shoare shall not excuse the said allowance, for a <occupation>master</occupation> is seldome
+or never consigned to a port, where&amp;#91;?in&amp;#93; the owners have not some
+factor or other person to give him assistance and that the <occupation>masters</occupation>
+going ashoare to him and staying there and waiting on him about
+the shipps business is for the most part equall expense to him as if there were noe
+factor there, and that rate of a <material>peece of eight</material> per diem is a
+mans ordinary expense there, and often more than lesse. And
+otherwise cannot answere saving as aforesaid.
+
+<person>John Stevens</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+
+Repeated before <person>doctor Godolphin</person>
+
+&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;
+
+The <date>29th of ffebruary 1655</date>./ &amp;#91;CENTRE HEADING&amp;#93;
+
+<person>William horne Thomas Cornelius</person> and <person>Robert
+Richbell</person> against <person>Thomas Mills</person> and <person>Paule
+Richards</person>&amp;#58; <person>Clements Suckley</person>&amp;#125;
+
+Examined upon an allegation given in on the
+behalfe of the sayd <person>Thomas Mills</person> and <person>Paule
+Richards</person>./
+
+'''Rp. .jus'''
+
+'''<person>George Garneham</person>''' of <place>Portsmouth</place> in <place>hampshire</place> <occupation>Mariner</occupation>
+<occupation>Master</occupation> of the shipp the ''<ship>Prosperous</ship>'' aged <date>thirty five yeares</date>
+or thereabouts a <occupation>wittnes</occupation> sworne and examined saith and
+deposeth as followeth videlicet./
+
+To the first article of the sayd allegation hee saith that hee this <person>deponent</person>
+being <occupation>Master</occupation> of the shipp the ''<ship>Prosperous</ship>'' arlate knoweth that at such <time>tyme</time> as shee
+went out upon the voyage in Controversie from <place>Southampton</place> shee had in her only <material>two peece
+of Ordnance sixe Musketts tenn or twelve charges of great shott, a hundred
+weight of burr shott and a considerable quantitie of Muskett shott and
+powder</material> sufficient and proportionable to those gunnes and shott and that there was on
+board
+}}</text>
+      <sha1>pxrshnuk46dyl6c9t774ldjqbyyxeez</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.103r Annotate</title>
+    <ns>0</ns>
+    <id>6297</id>
+    <revision>
+      <id>85484</id>
+      <parentid>85483</parentid>
+      <timestamp>2015-05-20T09:32:05Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="4012">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=103
+|Side=Recto
+|Status=Uploaded image; transcribed on 22/12/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/12/22
+|Editorial history=Edited on 08/09/2013 by Colin Greenstreet
+|Note=IMAGE: P1140349.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1140349.JPG}}
+|Transcription=board her shott and powder sufficient for those <material>two gunnes and seaven musketts</material> for
+the voyage in question either for <place>ffrance</place> or for <place>Biskay</place> And further to this article
+hee cannot depose./
+
+To the 2&amp;#58; 3 and 4th articles of the sayd allegation hee saith that the sayd shipp ''<ship>Prosperous</ship>''
+in her returne from <place>Burdeaux</place> coming accompanyed with a vessell of <place>yarmouth</place>
+whereof one <person>Appleby</person>
+
+ was <occupation>Commander</occupation> was mett with by a <place>Brest</place> man of warr
+or some other vessell of warr belonging to <place>ffrance</place> carrying <material>fower peese of ordnanse and about fiftie men</material> and saith that the sayd man of
+warr makeing up towards the ''<ship>Prosperous</ship>'' and the sayd other shipp in her Company
+the sayd other shipp whereof <person>Appleby</person> was <occupation>Commander</occupation> being a better sayler than
+the ''<ship>Prosperous</ship>'' went away from and forsooke her, and the sayd <person>Appleby</person> at his goeing
+away called to this <person>deponent</person> and Company of the ''<ship>Prosperous</ship>'' and sayd hee could doe
+them noe good and that hee had rather they should bee taken than her, and bid
+them shifte for them selves or to that effect and soe left the ''<ship>Prosperous</ship>'', which the
+arlate <person>Thomkins</person> her <occupation>Pylott</occupation> perceiving advised this <person>deponent</person> and Company presently
+to call out to the man of warr for quarter it being to noe purpose in his Judgment
+(as hee sayd) to make resistance against a vessell soe well manned as the sayd
+man of warr appeared to bee, there appearing upon her deck about <date>forty or fifty men</date>
+and the ''<ship>Prosperous</ship>'' having but <date>seaven men and a boy</date>, which notwithstanding hee
+saith hee this <person>deponent</person> and Company of the ''<ship>Prosperous</ship>'' made divers shott against
+the sayd man of warr intending if possible to have kept the ''<ship>Prosperous</ship>'' and her
+ladeing from being taken but was over powered by the sayd man of warrs
+numbers and not being able to defend their quarter from the sayd man
+of warr seized the sayd shipp ''<ship>Prosperous</ship>'' and her ladeing and saith at her sayd seizure
+shee had one gunne laden but the gunnes standing upon Carriages in Portholes
+and shee being a smale Pinke which could carrie noe gunns behinde could not
+possibly defend her selfe against the forse of the sayd man of warr though
+shee had at her seizure powder and shott sufficient though it were but a smale quantitie, in respect hee knoweth that be reason of the sayd man of warrs overpowering of her soe that hee well
+knoweth shee was not lost for any want thereof, but meerely over powered with
+multitude of men as aforesayd And further to these articles hee cannot depose/
+
+To the 5th article of the sayd allegation and the <material>Charterparty</material> and Schedule therein
+mentioned hee saith hee well remembreth that in the morning of the <date>five and
+twentith day of January</date> the arlate <person>Robert Richbell</person> one of the parties in this
+suite came to this <person>deponent</person> (who was <occupation>Master</occupation> of the ''<ship>Prosperous</ship>'') and willed
+him to be gone with the sayd shipp upon the voyage in question and told this
+<person>deponent</person> there was a necessitie hee this <person>deponent</person> should make all possible
+speede away with her, or to that effect and this <person>deponent</person> answering him and
+saying the <material>Charterparty</material> for the sayd voyage was not sealed, (as in truth it
+then was not) and that hee had order from his Owners the arlate <person>Thomas
+Mills</person> and <person>Paule Richards</person> not to depart till the sayd <material>Charterparty</material> were
+sealed and untill they came hee the sayd <person>Richbell</person> sayd they could seale the <material>Charterparty</material>
+after hee this <person>deponent</person> was gone or to that effect, and thereupon this <person>deponent</person>
+told the sayd <person>Ritchbell</person> that hee this <person>deponent</person> know not whether hee had soe
+much <material>amunition</material> yet aboard the ''<ship>Prosperous</ship>'' as the Owners intended to put thereon,
+but the sayd <person>Richbell</person> still continued importunate with this <person>deponent</person> and bid him
+by
+}}</text>
+      <sha1>jk25kbxzqjfcvq6951ofxae85yhnz5s</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.103v Annotate</title>
+    <ns>0</ns>
+    <id>6097</id>
+    <revision>
+      <id>85486</id>
+      <parentid>39968</parentid>
+      <timestamp>2015-05-20T09:33:24Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3753">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=103
+|Side=Verso
+|Status=Uploaded image; transcribed on 22/12/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/12/22
+|Editorial history=Edited on 08/09/2013 by Colin Greenstreet
+|Note=IMAGE: P1140350.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1140350.JPG}}
+|Transcription=by any meanes be gone with the sayd shipp and sayd hee the sayd <person>Richbell</person>
+would beare him harmelesse for soe doeing, all which words expressed soe passed
+betwixt the sayd <person>Richbell</person> and this <person>deponent</person> in presense and hearing of <person>william
+horne</person> and <person>Thomas Cornelius</person> two other off the freighters of the ''<ship>Prosperous</ship>'' the
+voyage in question And hee saith the the sayd <person>Richbell</person> <person>horne</person> and <person>Cornelius</person>
+then presently that morning gave this <person>deponent</person> a noate under their hands to
+save him harmlesse in case of his departure as aforesayd and saith the Schedule arlate now shewed to him at the <time>tyme</time> of his
+examination is the same noate they gave him and is subscribed
+with the severall hand writings of the sayd <person>horne</person> <person>Cornelius</person> and <person>Richbell</person>
+and was subscribed soe by them in presense of this <person>deponent</person> and one <person>James
+Wheeler</person> and others And further to this article hee cannot depose./
+
+To the 6th article of the sayd allegation hee saith that the sayd fifth of
+<date>January</date> in the morning the winde and tyde proved contrary soe that the
+sayd shipp could not then goe out, and saith that in the afternoone of the same
+say this <person>deponents</person> Owners the sayd <person>Paule Richards</person> and <person>Thomas Mills</person> came
+both of them to <place>Southampton</place> and being come
+the sayd <person>Richards</person> spake
+to the sayd <person>Richbell</person> in presense only of this <person>deponent</person> at his the sayd <person>Richbells</person>
+house at <place>Southampton</place> and sayd asked him what hee sayd as touching the
+<material>ammunition</material> aboard the ''<ship>Prosperous</ship>'' whether there were enough whereto
+<person>Richbell</person> answered and sayd hee was well contented with what <material>amunition</material>
+was in her and that his desyre was shee should departe with all speede
+or to that effect And saith hee heard hath heard both the arlate <person>Cornelius</person> and
+<person>Richbell</person> sayd that the sayd <person>Paule Richards</person> was a part <occupation>Adventurer</occupation>
+
+ and had
+a part in the <material>Cargoe of goods</material> arlate, and saith this <person>deponent</person> sawe him
+the sayd <person>Richards</person> pay some moneys (how much hee remembreth not) to the
+sayd <person>Richbell</person> for part of the sayd <material>Cargo</material>, which consisted of <material>Corne</material>
+all provided by the sayd <person>Richbell</person>, but of what part or whether it were an
+eigth part that hee the sayd <person>Richards</person> was soe <occupation>Adventurer</occupation> of hee knoweth not And
+further to his article hee cannot depose/
+
+To the last hee saith his foregoeing deposition is true./
+
+'''Rp.'''
+
+To the Interrogatories &amp;#91;CENTRE HEADING&amp;#93;
+
+To the first, The danger of periurie being declared unto him as is
+required, hee answereth that hee was <occupation>Master</occupation> of the ''<ship>Prosperous</ship>'' the
+voyage in question at her departure from <place>Southampton</place> which was on the
+<date>twenty sixth day of January 1654</date> and continued in her till her seizure
+which happened on the <date>first day of June</date> last and was then on
+board her and saith there was one gunne charged at her seizure and that there was then
+shott aboard for about a <date>dozen charges</date> more but not above one charge more of
+powder and some smale quantitie of powder beside to charge musketts with And
+saith hee verily beleeveth and is perswaded in his conscience that the sayd
+shipp could not have escaped with her ladeing though shee had never
+soe much powder and shott by reason they were over powered as a foresayd and
+by reason the Company of her threw downe their musketts and refused to make
+any longer opposition but desyred this <person>deponent</person> to call for quarter, and
+lowred the topp sayle whereupon this <person>deponent</person> did aske quarter And further to
+this Interrogatorie saving his foregoeing deposition hee cannot answere./
+}}</text>
+      <sha1>ad0r20ya9z29grtqr14fqwing8xkx38</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.104r Annotate</title>
+    <ns>0</ns>
+    <id>5808</id>
+    <revision>
+      <id>85488</id>
+      <parentid>38363</parentid>
+      <timestamp>2015-05-20T09:34:49Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3371">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=104
+|Side=Recto
+|Status=Uploaded image; transcribed on 22/12/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/12/22
+|Editorial history=Edited on 08/09/2013 by Colin Greenstreet
+|Note=IMAGE: P1140351.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1140351.JPG}}
+|Transcription=To the 2 Interrogatorie hee saith the ''<ship>Prosperous</ship>'' carried from <place>Southampton</place> <material>tenn or
+twelve great shott</material> and that hee this <person>deponent</person> provided at <place>ffoy</place> about a <date>dozen great shell morre</date>, and further to this Interrogatorie saving his foregoeing deposition hee
+cannot answere./
+
+To the 3 Interrogatorie hee saith that the ''<ship>Constant Warwick</ship>'' a man of warr belonging
+to this <place>Comonwealth</place> was about <date>a league and a halfe</date> and better to the Leewards of
+the ''<ship>Prosperous</ship>'' when shee was seized, And to the rest of the Interrogatorie
+hee answereth negatively well knowing as a foresayd that for the reasons before
+expressed though shee had had much more powder and <material>amunition</material> than shee had shee could
+not have continued fight longer than shee did nor have avoided being taken/
+
+To the 4 Interrogatorie hee saith hee cannot answere not knowing what the
+<material>Cargoe Interrogate</material> was worth the tyme Interrogate, but beleeveth the same
+was then worth about <date>five or six hundred pounds</date>./
+
+To the 5 Interrogatorie hee saith hee knoweth the Interrogate <person>william
+Tompkins</person> and <person>Christopher Rogers</person> and saith they both of them went in the sayd
+shipp, <person>Tompkins</person> as <occupation>Pilott</occupation>, and <person>Rogers</person> as <occupation>Gunner</occupation> of her the voyage in question,
+And saith hee hath knowne the sayd <person>Tompkins</person> for about <date>three yeares</date> last past
+and the sayd <person>Rogers</person> for about <date>Tenn yeares</date> last past and saith during their
+knowledge of them they have bin Accompted honest men And further to
+this Interrogatorie hee cannot answere/
+
+To the sixth Interrogatorie hee saith hee is worth <date>a hundred pounds</date> his debts
+paid and saith hee cometh to testifie in this cause being soe required by
+the producents <person>Mills</person> and <person>Richards</person> and saith the presents beare his necessary
+charges coming to <place>London</place>, and attending to bee examined, and soe home againe,
+but what that will amount unto hee knoweth not, and saith hee hath receaved nothing
+nor expecteth any thing for his testimony nor is instructed what to
+testifie./
+
+To the 7th Interrogatorie hee saith, that there were present when the sayd
+<person>horne</person>, <person>Cornelius</person> and <person>Richbell</person> did subscribe the noate predeposed and mentioned
+this <person>deponent</person> and the foresayd <person>James Wheeler</person> and an other person whose
+name hee knoweth not who was a drawer in the <place>Taverne</place> in <place>Southampton</place>
+where the same was subscribed and some others whose names hee remembreth not And further to this Interrogatorie saving
+his foregoeing deposition hee cannot answere otherwise than negatively/
+
+<person>George Garnham</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+
+Repeated before <person>doctor Godolphin</person>/
+
+&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;
+
+The same day
+
+Examined upon the sayd allegation./
+
+'''Rp. 2us'''
+
+'''<person>Christopher Rogers</person>''' of <place>Portsmouth</place> in <place>hampshire</place>
+<occupation>Mariner</occupation> <occupation>Gunner</occupation> of the shipp the ''<ship>Prosperous</ship>'' aged <date>fiftie
+yeares</date> or thereabouts a <occupation>wittnes</occupation> sworne and examined
+saith and deposeth as followeth videlicet./
+
+To the first article of the sayd allegation hee saith that hee goeing <occupation>gunner</occupation> of
+}}</text>
+      <sha1>ogc4ozigqngcfxf3ncv9cnsso2gqq9l</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.104v Annot
+
+ate</title>
+    <ns>0</ns>
+    <id>5437</id>
+    <revision>
+      <id>85490</id>
+      <parentid>36188</parentid>
+      <timestamp>2015-05-20T09:36:09Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3914">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=104
+|Side=Verso
+|Status=Uploaded image; transcribed on 23/12/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/12/23
+|Editorial history=Edited on 08/09/2013 by Colin Greenstreet
+|Note=IMAGE: P1140352.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1140352.JPG}}
+|Transcription=of the ''<ship>Prosperous</ship>'' the voyage in question knoweth that at her setting out from <place>Southampton</place>
+on the sayd voyage shee had aboard her a great quantitie of
+<material>burr shott</material>, and only <material>two peeces of ordinance and seaven musketts</material>, and a good
+quantitie of <material>muskett shott and about nyne or tenn great shott and about two and thirty pounds of powder</material> which
+was a proportionable quantitie as hee beleeveth to the sayd gunnes musketts and
+shott and sufficient for the voyage aforesayd as hee beleeveth And further
+to this article hee cannot depose. saving hee saith the <occupation>master</occupation> of her procured about
+<date>tenn or twelve great shott</date> more at <place>ffoy</place> in <place>Cornwall</place>./or <place>ffalmouth</place>./
+
+To the 2&amp;#58; 3 and 4th articles of the sayd allegation hee this <person>deponent</person>
+hee being <occupation>gunner</occupation> of and aboard the ''<ship>Prosperous</ship>'' till, and at her seizure, which
+happened the <date>first day of June</date> last, well knoweth the sayd shipp ''<ship>Prosperous</ship>''
+came from <place>Burdeaux</place> in <place>ffrance</place> homeward bound in Company of a <place>yarmouth</place>
+vessell whereof the arlate <person>Appleby</person> was <occupation>Commander</occupation> who had in his sayd
+shipp <material>three gunnes</material>, and saith the said <person>Appleby</person> perceiving that the ''<ship>Prosperous</ship>''
+and his shipp were chased or pursued by a man of warr, spake to
+the <occupation>Master</occupation> and Company of the ''<ship>Prosperous</ship>'' and told them that hee perceived
+they were persued by a man of warr and that in likelyhood either
+the ''<ship>Prosperous</ship>'' or this shipp must bee taken, and therefore advised them
+to looke to them selves for hee intended to leave them or to that effect, and thereupon
+his the sayd <person>Applebyes</person> shipp being the better sayler hee went away
+and left the ''<ship>Prosperous</ship>'' to grapple with the sayd man of warr as well
+as shee could, and hee being gone the sayd man of warr (which afterwards
+appeared to bee a <place>Brest</place> man of warr) made up neerer to the ''<ship>Prosperous</ship>''
+and saith the arlate <person>Tompkins</person> seeing her drawe neere, advised the
+<occupation>Master</occupation> of the ''<ship>Prosperous</ship>'' to call out for quarter and sayd it was to noe
+purpose to resiste for that it appeared plainely (as indeed it did to
+this <person>deponent</person> and the <occupation>Master</occupation> and Company of the ''<ship>Prosperous</ship>'') that the sayd
+man of warr had <material>fower gunnes</material>, and <date>betweene forty and fifty men</date>
+which appeared upon the decke, and the ''<ship>Prosperous</ship>'' of this <person>deponents</person> knowledge had but <material>two gunnes</material> and
+<date>sixe or seaven men and a boy</date>, which notwithstanding the <occupation>Master</occupation> of
+the ''<ship>Prosperous</ship>'' being desyrous if possible to save his sayd shipp
+and goods did make resistanse and caused his gunnes and severall musketts to be severall
+tymes fyred against the man of warr, but this <person>deponent</person> and
+others of the Company observing that the sayd man of warr
+was come up close to the ''<ship>Prosperous</ship>'' and likely presently to enter
+her quarter desyred the <occupation>Master</occupation> of her to call for quarter and withall
+the Company threw downe their Musketts and lowered their Top saile,
+which the <occupation>master</occupation> perceiving did aske quarter and soe the sayd shipp
+''<ship>Prosperous</ship>'' not being able to make further resistanse was taken
+one of her gunnes being then laden, and some powder left, but
+saith hee well knoweth the sayd shipp &amp;#123;and&amp;#125; goods was not lost through
+any want of powder or <material>ammunition</material> but meerely by reason shee
+was over powered with multitude of men who were ready
+from the sayd man of warr to enter her quarter and shee being
+a smale pinke which carried no gunnes behinde could not possibly
+though her whole ladeing of had consisted of powder and shott have
+made any resistanse more than shee did, And further to theise
+articles hee cannot depose./
+
+To the 5th article of the sayd allegation and the <material>Charterparty</material> and Schedule
+therein
+}}</text>
+      <sha1>93skn9jjfim1f113dxp0tbfpndawip8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.105r Annotate</title>
+    <ns>0</ns>
+    <id>6558</id>
+    <revision>
+      <id>85492</id>
+      <parentid>42715</parentid>
+      <timestamp>2015-05-20T09:37:16Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="2888">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=105
+|Side=Recto
+|Status=Uploaded image; transcribed on 23/12/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/12/23
+|Note=IMAGE: P1140353.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1140353.JPG}}
+|Transcription=therein mentioned hee saith hee cannot depose./
+
+To the 6th article of the sayd allegation hee saith hee hath heard and beleeveth
+that the arlate <person>Paule Richards</person> was an <occupation>Adventurer</occupation> with the arlate
+<person>horne</person> <person>Cornelius</person> and <person>Richbell</person> in the <material>Cargo arlate</material> but what part thereof
+hee had hee knoweth not nor hath heard And further to this article hee
+cannot depose./
+
+To the last hee saith his foregoeing deposition is true./
+
+To the Interrogatories./ &amp;#91;CENTRE HEADING&amp;#93;
+
+To the first the danger of periurie being declared unto him as is
+required hee saith, hee was <occupation>Gunner</occupation> of the ''<ship>Prosperous</ship>'' the <time>tyme</time>
+Interrogate and continued soe untill, at her seizure, being then aboard
+her, and saith at her seizure one her gunnes was charged and that
+there was a par
+
+cell of round shell left and also <material>Muskett shott</material> and
+smale quantities of some powder in bandoleeres, and saith hee verily beleeveth and is
+perswaded in his consciense, and indeede knoweth that had the sayd
+shipp had never soe much powder and shott aboard, shee could not have
+escaped with her ladeing from being seized by the sayd man of
+warr, hee being soe much over powered by their men who were
+ready to enter her quarter when the <occupation>master</occupation> and Company of h&amp;#123;er&amp;#125;
+soe waved quarter, And further saying his foregoeing deposition
+hee cannot answere/
+
+To the 2 Interrogatorie hee saith saving his foregoeing deposition
+hee cannot answere otherwise than negatively./
+
+To the 3 Interrogatorie hee saith that at such <time>tyme</time> as the <occupation>Master</occupation> and
+Company of the ''<ship>Prosperous</ship>'' called out for Quarter there was a
+man of warr of this <place>Commonwealth</place> about <date>two leagues off</date> from
+her to the Lee ward, soe that hee could not as this <person>deponent</person> beleeveth
+come up to her rescue there in tyme though the ''<ship>Prosperous</ship>'' had bin
+provided with much more powder and shott than shee was in regard
+the man of warr soe much over powered her in men and was ready
+to board her And further to this Interrogatorie saving his foregoeing
+deposition hee cannot answere./
+
+To the 4th hee saith hee beleeveth the <material>Cargo of goods</material> seized aboard
+the ''<ship>Prosperous</ship>'' by the sayd man of warr was worth about <date>seaven
+or eight hundred pounds</date>, And further to this Interrogatorie hee cannot
+answere/
+
+To the 5th hee saith hee this <person>deponent</person> is the Interrogate <person>Rogers</person> and
+went <occupation>Gunner</occupation> and saith hee knew the knew not the Interrogate <person>Tompkins</person>
+before the voyage in question and saith hee went therein <occupation>Pylott</occupation> of the
+''<ship>Prosperous</ship>'' and having smale acquaintanse with him hee knoweth not
+what hee is accompted and saith hee him selfe being the person other person
+Interrogate
+}}</text>
+      <sha1>rmm87ml394mavgwxdko4zrghsa3b5bo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.105v Annotate</title>
+    <ns>0</ns>
+    <id>5736</id>
+    <revision>
+      <id>85494</id>
+      <parentid>37952</parentid>
+      <timestamp>2015-05-20T09:52:02Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3055">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=105
+|Side=Verso
+|Status=Uploaded image; transcribed on 23/12/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/12/23
+|Editorial history=Edited on 01/05/2014 by Colin Greenstreet
+|Note=IMAGE: P1140354.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1140354.JPG}}
+|Transcription=hee beleeveth it is not proper for him to testifie or answer
+anything for or against his owne
+reputation, And further to this Interrogatorie hee cannot answere
+
+To the 6th hee saith hee is worth <date>twenty pounds</date> his debts paid and
+saith hee was required to testifie in this cause by the <person>producent</person> and
+hath receaved <material>'''xx''' ''s''</material> for his losse of <time>tyme</time> in Coming from <place>Portsmouth</place>
+to <place>London</place> to be sworne and examined, and is not instructed by any one
+what to depose and expecteth nothing more than what hee hath as aforesayd receaved
+nor is promised anything more, And further to this Interrogatorie
+hee cannot answere./
+
+To the 7th Interrogatorie hee answereth as before that the shipp
+the ''<ship>Prosperous</ship>'' was not lost for want of <material>Ammunition</material> but meerely
+by reason shee was over powered in number of men as aforesayd,
+and the noate in his Interrogatorie mentioned being now shewed
+unto him and read unto him, hee saith that the
+marke ''CR'' at the bottom thereof is his this <person>deponents</person> marke
+which hee usually maketh, and beleeveth the same was by him sett
+thereto as now it is, but with all saith
+that whereas it is expressed therein that there was but <material>tenn or
+twelve shott</material> at first aboard the ''<ship>Prosperous</ship>'' and that for want of powder and shott the <occupation>Master</occupation> and
+Company of the Shipp ''<ship>Prosperous</ship>'' were forsed to surrender her
+and her ladeing of <material>Merchandizes</material> to the man of warr, hee saith
+the same was not soe read to him then when hee signed the same,
+neither did hee before the <occupation>Maior</occupation> of <place>Southampton</place> affirme upon
+upon a bill any thing to that purpose but saith that <person>Robert
+Richbell</person> one of the parties in this suite did often tymes at his owne &amp;#91;?house&amp;#93; urge this
+<person>deponent</person> to saye soe while the same noate was
+drawing up at his house to bee prepared for this <person>deponent</person> to
+signe before the sayd <occupation>Mayor</occupation>, but this <person>deponent</person> constantly denyed
+that the sayd shipp ''<ship>Prosperous</ship>'' and goods in her was lost and surrendered
+for want to powder and shott, and saith this <person>deponent</person> knew not that
+it was soe expressed therein when hee signed the same before the
+sayd <occupation>Major</occupation>, And saith what ever is expressed in the sayd
+Noate contrary to this <person>deponents</person> deposition now made
+in this Court was put into the sayd noate without the knowledge
+and contrary to the intente of this <person>deponent</person>, and is utterly false
+and untrue, and saith by virtue of his oath that this deposition
+now made in this court is truth, And to the rest of the Interrogatorie
+hee cannot answere knowing nothing touching the noate annexed
+to the allegation aforesayd nor having deposed any thing touching
+the same./
+
+Repeated before <person>doctor Godolphin</person>
+
+the marke of the sayd
+<person>Christopher '''C R''' Rogers</person>./ &amp;#91;MARKE, RH SIDE&amp;#93;
+}}</text>
+      <sha1>rk9q0k87gjgn5hrwxrfda6xsdnrxoax</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.106r Annotate</title>
+    <ns>0</ns>
+    <id>5929</id>
+    <revision>
+      <id>86009</id>
+      <parentid>85496</parentid>
+      <timestamp>2015-05-21T14:21:40Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="4437">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=106
+|Side=Recto
+|Status=Uploaded image; transcribed on 27/10/2012
+|First transcriber=Jill Wilcox
+|First transcribed=2012/10/27
+|Editorial history=Edited by Jill Wilcox 30/05/2013 and on 01/05/2014 by Colin Greenstreet
+|Note=IMAGE: P1080974.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1080974.JPG}}
+|Transcription=The <date>third of March 1655</date> &amp;#91;CENTRE HEADING&amp;#93;
+
+<person>Wilkinson</person> con <person>Warren</person>.&amp;#125;
+
+Examined upon the sayd Libell.
+
+'''2 us'''
+
+'''<person>Sidrach Wills</person>''' of <place>Ratcliffe</place> in the County of <place>Middlesex</place> <occupation>Mariner</occupation> late
+<occupation>second Mate</occupation> of the sayd shipp the ''<ship>Exchange</ship>'', aged <date>twenty eight
+years</date> or thereabouts a witnes produced sworne and examined
+saith and deposeth and followeth. videlicet.
+
+To the first and second Articles of the sayd Libell this deponent saith that for and during
+the tyme libellat the arlate <occupation>Captaine</occupation> <person>Wilkinson</person> and Company were the
+Lawfull reputed Owners of the sayd shipp the ''<ship>Exchange</ship>'' and of her tackle apparell
+and furniture, And he saith that the sayd shipp with in the sayd tyme was bound
+out upon a voyage from this Port of <place>London</place> to <place>Virginia</place>, and had goods and
+marchandizes of good value and severall passengers on board her to be
+transported thither in her. And for her better and more secure passage into
+the downes in order to proceed on her sayd voyage, the arlate <person>James Waring</person> or <person>Warren</person>
+was taken and admitted to be <occupation>pilot</occupation> of the sayd shipp to sayle and conduct her
+out of this river of <place>thames</place> into the Downes aforesayd, And he the sayd <person>Waring</person>
+tooke upon him the sayd office of <occupation>pilot</occupation> to conduct aćcordingly, and had committed
+to him and aćcepted the ćare and charge of the sayd shipp and her lading as
+<occupation>pilott</occupation>, and undertooke to <occupation>pilot</occupation> and conduct the same from the sayd River into
+the downes aforesayd. All which hee knoweth to be true for that he was
+<occupation>second Masters mate</occupation> in and aboard the sayd shipp the sayd intended voyage, and
+sayled in her till she bećame hurt and damaged as hereafter is &amp;#91;?expressed&amp;#93;. And
+otherwise hee cannot depose.
+
+To the third article of the sayd Libell he saith that having followed the imployment of the
+sea in generall shipps for <date>thirteen years</date> and upwards he thereby knoweth
+that it is the law of the seas, and a &amp;#91;?CouXon&amp;#93; used and Custome that when a
+<occupation>Pilott</occupation> be admitted and taketh upon him the ćare of conducting a shipp from
+one place to another the Company and <occupation>Mariners</occupation> of the sayd shipp are and
+ought to follow the direction and Orders of such <occupation>Pilot</occupation>, and obey him in what
+he commandeth touching the sayling of such shipp, though the <occupation>Captaine</occupation>, <occupation>master</occupation>
+or other cheife <occupation>Commander</occupation> of such shipp be on board and five noe Command
+to the same effect. And otherwise he cannot depose.
+
+To the fourth and fifth articles of the sayd Libell he saith that the sayd <person>Waring</person> being
+<occupation>Pilot</occupation> as aforesayd, did sett sayle therewith out of the <place>River Thames</place>, and
+ćame neere to a places (sic) where the Buoyes bye being not farr from the <place>Gore</place>
+or <place>Reculvers</place> arlate, att which tyme the sayd shipp being so come neere the Buoyes
+had not above three fathom water and as she then sayled was in danger of
+running upon the sands which the sayd <person>Waring</person> though he were continually told
+of what depth the water was did not seeme to take notice of And this deponent
+as others of his <occupation>mates</occupation> likewise did discovering the Buoyes cryed out and
+aćquainted the sayd <person>Waring</person> therewith, whereupon the sayd <person>Waring</person> did give order
+to sett upp the maine sayle, and within halfe a quarter of an houre hee after
+the sayd shipp ram upon the the sands and striking violently severall &amp;#91;?shokes&amp;#93; upon the
+same broke her rudder, and bećame otherwise so such and dammified that
+she bećame unable to proćeed upon her sayd voyage, And soe much this
+deponent well saw and knoweth to be true. And otherwise to these Articles
+ćannot depose, saving that the sayd <person>Waring</person> whilest hee was Pilotting the
+sayd shipp did often sweare and ćurse.
+
+To the sixth and seventh articles of the sayd Libell he saith by reason of the
+hurt done to the sayd shipp and by losse of the sayd voyage and by the losse of
+severall goods and provisions and dammage done to other of their goods they the
+sayd <person>Wilkinson</person> and Company did in this deponents judgments suffer losse and
+dammage to the value of betwixt <date>two and three thousand pounds sterling</date>
+And he saith that the sayd losse and dammage, and alsoe the hazard of mens lives in the
+sayd
+}}</text>
+      <sha1>jnyqa8y8aqrmvcg3n21racjzugjv1m6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.106v Annotate</title>
+    <ns>0</ns>
+    <id>5646</id>
+    <revision>
+      <id>85498</id>
+      <parentid>85373</parentid>
+      <timestamp>2015-05-20T09:56:51Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="4536">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=106
+|Side=Verso
+|Status=Uploaded image; transcribed on 01/04/2013
+|First transcriber=Jill Wilcox
+|First transcribed=2013/04/01
+|Editorial history=Edited on 31/05/2013 by Jill Wilcox and on 05/05/2014 by Colin Greenstreet
+|Note=IMAGE: P1080975.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1080975.JPG}}
+|Transcription=sayd shipp did happen in this deponents judgement and as he verily beleeveth
+through the ignorance or neglect, or alsoe through the mates and &amp;#91;?XXXXX GUTTER&amp;#93;
+&amp;#91;?nes&amp;#93; of him the sayd <person>James Waring</person>; which he deposeth for that he &amp;#91;?saith GUTTER&amp;#93;
+the sayd dammage so done and same and knoweth the quality of the goods so
+dammified and is well assured that the said <occupation>Pilot</occupation> had he done his duty might
+have prevented the sayd dammage, by putting into the Channell &amp;#91;XXX XXXX XXX GUTTER&amp;#93;
+served well for that purpose att that tyme, and another shipp which
+was a head of the ''<ship>Exchange</ship>'' did safely putt into the Channell att that
+tyme, and escaped that danger which the ''<ship>Exchange</ship>'' by not altering
+her course rann into; And otherwise he cannot depose.
+
+To the 8th article he cannot depose.
+
+To the 9th he saith he referres himselfe to the Acts and words of the Court.
+
+To the 10th he saith the sayd <person>Waring</person> is generally reputed to be an
+<place>Englishman</place> and subject to the Jurisdiction of this Court
+
+To the last he saith his foregoeing deposition is true.
+
+To the Crosse Interrogatories &amp;#91;CENTRE HEADING&amp;#93;
+
+To the 1st Interrogatories he saith that the sayd <person>James Warren</person> hath had the repute
+of a sufficient <occupation>Pilot</occupation> to conduct a shipp out of this River into the downes
+and accordingly hath pilotted severall shipps as that <person>Rendent</person> hath heard
+And further having not had any personall knowledge of the sayd <person>Warren</person>
+or Experience of his <occupation>Pilotting</occupation> before the voyage in question he cannot
+answer
+
+To the second Interrogatorie he saith the said <person>James Warren</person> did <occupation>Pilot</occupation> the said shipp
+and brought her safely to <place>Gravesend</place>, and she was there cleared upon a
+<date>Saturday</date>, and the same <date>Saturday</date> might as he now remembreth or the next
+morning she was unmoved in order to fall downe to the Hope. And att that
+tyme the wind was very high, howbeit other shipps as well of the ''<ship>Exchange</ship>''
+then likewise departed from <place>Gravesend</place>, and the said <person>Warren</person> <occupation>Pilotted</occupation> the
+''<ship>Exchange</ship>'' into the <place>Hope</place> without difficulty so farr as this <person>Rendent</person>
+observed. And further knowing nothing of the interrogat passages
+betwixt the sayd <person>Wilkinson</person> and <person>Warren</person>, he cannot depose.
+
+To the third Interrogatorie he saith that the shipp ''<ship>Exchange</ship>'' was of about <material>two
+hundred tonnes</material> burthen and <number>twenty four men</number> are a competent number
+to sayle such a shipp upon such a voyage as was then intended and
+that there were <number>twenty four men</number> as <occupation>Mariners</occupation> in the sayd shipp ''<ship>Exchange</ship>''
+the tyme in question, besides <number>two boyes</number> all being of her company. And &amp;#91;?that GUTTER&amp;#93;
+otherwise not remembering to have heard the sayd <person>Warren</person> to have compl&amp;#91;?ained GUTTER&amp;#93;
+of lack of men, or that the said <person>Wilkinson</person> threatened him with making or &amp;#91;?threaten= GUTTER&amp;#93;
+ing to make a Mutiny or any thing to that purpose, or of any import&amp;#91;?unity GUTTER&amp;#93;
+or force used to the said <person>Warren</person> to sayle out of the <place>Hope</place>, he saith &amp;#91;?hee GUTTER&amp;#93;
+cannot answere.
+
+To the 4th Interrogatorie he saith that the sayd shipp being upon her sayd voyage
+departed from the <place>Hope</place> (to the best of his remembrance) upon a <date>Sunday morning</date>
+next after the fore mentioned <date>Saturday</date>, and sayling by the <place>Redsand</place>  &amp;#91;?were GUTTER&amp;#93;
+over the <place>fflatts</place> that morning, and att that tyme there blew a very strong
+wind from the <direction>North west and By west</direction>, but the sayd shipp came not to the &amp;#91;XX GUTTER&amp;#93;
+narrow nor did edge in as is pretended by this Interrogatorie, but ćame &amp;#91;?neare GUTTER&amp;#93;
+to the <place>Woollpack</place> which is out of the narrow, and there struck and left &amp;#91;?her GUTTER&amp;#93;
+rudder, after the losse whereof the said shipp beat over that sand
+and then cast anchor but not lyeing safely thene, but beating upon
+another saw the Cables were of necessity to be cutt, and so the shipp &amp;#91;XX GUTTER&amp;#93;
+over that other sands; And he saith it is true that the said <person>Warren</person> did steare &amp;#91;XXX GUTTER&amp;#93;
+<direction>South East</direction> for the <place>Redsand</place>, and did afterwards and after that he &amp;#91;?had GUTTER&amp;#93;
+mist or left his Course to the narrow whither he should have gone, &amp;#91;?endeavoure GUTTER&amp;#93;
+to edge into the shoare <direction>South East and by South</direction> but that endeavour be &amp;#91;XX GUTTER&amp;#93;
+}}</text>
+      <sha1>cecsimp08berdiwggjjwmvq4dhugbpm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.107r Annotate</title>
+    <ns>0</ns>
+    <id>6240</id>
+    <revision>
+      <id>116463</id>
+      <parentid>85500</parentid>
+      <timestamp>2016-10-27T13:28:06Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3807">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=107
+|Side=Recto
+|Status=Uploaded image; transcribed on 06/11/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/11/06
+|Editorial history=Edited on 17/6/2013 by Jill Wilcox and on 05/05/2014 by Colin Greenstreet
+|Note=IMAGE: P1080976.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1080976.JPG}}
+|Transcription=too late, and there being not above <material>fifteen foot water</material>, the shipp struck and
+lost her rudder and was damnified as aforesayd. As for the importunity or force
+interrogated, or that the sayd <person>Warren</person> did putt the helme a port, or the sayd
+<person>Wilkinson</person>&amp;#91;?s&amp;#93; forcing the helme to be putt hard on starboard hee knoweth nothing
+thereof. Neither doth he know what the sayd privat markes are which the sayd
+<person>Warren</person> is in this Interrogatory pretended to have endeavoured to bring together.
+And further he cannot depose.
+
+To the 5th. he saith the sayd shipp having beat over the sayd <place>Woollpacke</place> came into
+<material>three fathom and a halfe water</material>, and then her sayles were furled, and both her
+yards and topmast struck, and her <number>two bower anchors</number> cast out, and the wind was
+high and her anchors yeilded and gave way, so as the sayd shipp struck agayne
+on another sand, and then her sheat ánchors were cutt as aforesayd, and she beat over
+that other sand, and then her sheat ánchor was cast out, and the wind increa=
+sing the sayd sheat ánchor was cutt in the flood, and the shipp was forced to
+shoare, And as for the occasion of the sayd inconveniences and dammages and
+who was in fault thereof he referreth himselfe to his foregoeing deposition
+And further otherwise than negatively cannot depose.
+
+Repeated before <person>doctor Godolphin</person>./
+
+<person>Sidrack Willas</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+
+&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;
+
+The <date>4th day of March 1655</date>/ &amp;#91;CENTRE HEADING&amp;#93;
+
+<person>Travers</person> against <person>Burridge</person> and <person>Spiser</person>&amp;#125;
+<person>Baker Smith</person>&amp;#125;
+
+Examined upon an allegation given in on the
+behalfe of the sayd <person>Travers</person>./
+
+'''Rp'''
+
+'''<person>William Webber</person>''' of the parish of <place>Saint Mary Magdalen</place>
+<place>Bermondsey</place> <occupation>Mariner</occupation> master of the shipp the ''<ship>John
+and Mary</ship>'' aged <date>36 yeares</date> or thereabouts a wittnes&amp;#125;
+sworne and examined saith and deposeth as followeth videlicet/&amp;#125;
+
+To the first second and third articles of the sayd allegation hee saith
+that hee this deponent (being the arlate <person>William Webber</person>) during all
+the tyme arlate was and still is a part Owner of the arlate shipp the
+''<ship>John and Mary</ship>'' of <place>London</place> and was by <person>Colonell John Owen</person> and the sayd
+<person>Travers</person> the party in this suite and others part Owner alsoe of the sayd shipp made
+<occupation>Master</occupation> of her for a voyage to bee made therewith from
+<place>London</place> to <place>Teneriff</place> and other places in the <place>King of Spaines</place> dominions and
+without the <place>Strights</place> (sic) of <place>Gilbraltar</place> and soe back for <place>London</place> and this deponent
+accordingly tooke upon him the sayd office of <occupation>Master</occupation> And hee saith that
+hee this deponent in the <date>yeare 1655</date> and moneths therein concurring lett
+in behalfe if him selfe and the rest of the owners of the sayd shipp did lett
+the sayd shipp to ffreight (as by the <material>Charterpartie</material> made betwixt the sayd
+<person>Travers</person> and this deponent and bearing date the <date>nynth day of Aprill 1655</date>
+more at large and may appeare) to the arlate <person>Gyles Travers</person> for the
+voyage in question after the rate of <money>one hundred and fower pounds</money> a moneth
+for soe longe as shee should continue in service of the sayd <person>Travers</person>,
+it not to exceede <date>twelve moneths</date>, And saith the sayd <person>Travers</person> in presense
+did as sole ffreighter at his owne cost and charges and for his owne Accompt
+freight the sayd shipp ''<ship>John and Mary</ship>'' upon &amp;#123;the&amp;#125; voyage in question to be made from <place>London</place> to <place>Teneriff</place> and other places in the dominion of the
+<place>Kinge of Spaine</place> as by <material>Charterparty</material> aforesayd doth appeare, And the sayd voyage being by this deponent
+performed the sayd <person>Travers</person> hath in persuance of the Conditions of the sayd <material>Charterparty</material> by him selfe and by his order paid
+this deponent a good part of the freight due for the sayd voyage in question according
+to the sayd rates and is lyable as this deponent beleeveth to pay the remaynder
+of the same, And saith the sayd And further saving his subsequent deposition
+hee cannot depose/
+
+To the 4th 5th and 6th articles of the sayd allegation hee saith hee well knoweth the arlate
+<person>Robert Bevin</person> and that hee was and is <occupation>factor</occupation> for the sayd <person>Gyles Travers</person> at <place>Teneriff</place>, and
+verily beleeveth that by reason of an <occupation>Imbargo</occupation> made by the <person>King of Spaine</person> upon all shipps
+and goods of <occupation>English merchants</occupation> within his power in the <date>yeere 1655</date> the <occupation>factors</occupation> of the <occupation>English Merchants</occupation> at <place>Teneriff</place>
+in the sayd yeere while the <occupation>English shipps</occupation> laye in the <place>Roade of Oratavo</place> or neere
+the Ilands of <place>Teneriff</place> did in behalfe of their principalls and the better to procure ladeing
+for their shipps then there that they might not returne home empty give or pay a summe
+of money unto the generall and officers of the sayd Island for admission money
+to lade wines under colour and pretence of being for Account of <place>dutch merchants</place> And the reason of such
+his beleefe is for that the sayd <person>Bevin</person> <occupation>factor</occupation> to the sayd <person>Travers</person> (with whose hand
+writing this deponent is well acquainted) did write unto this deponent
+then lying with his sayd shipp in the <place>Roade of Oratava</place> a letter bearing date the <date>twenty
+seaventh of November 1655</date> (new style) therein signifying to this effect that hee had paid in the
+behalfe of his Principall the sayd Mr <person>Travers</person> a summe of money for admission
+money for the whole ladeing of the shipp the ''<ship>John and Mary</ship>'' aforesayd, and that
+according to Computation it amounted to <money>fiftie eight Ryalls</money> for each pipe of
+wine laden aboard the sayd shipp ''<ship>John and Mary</ship>'', which hee was forced to do that
+soe the sayd wines might passe as laden for <occupation>dutch merchants</occupation> Accompts to &amp;#91;?avoide GUTTER&amp;#93;
+the Imbargoe then upon the goods and shipps of <occupation>English merchants</occupation>, and further writt
+that the arlate Mr <person>Burridge</person> was gone from <place>Oratava</place> to <place>Garachico</place> and had
+not paid him the said <person>Bevin</person> his part of the admission money for such wines
+as hee the sayd <person>Burridge</person> had on on board the ''<ship>John and Mary</ship>'', and that therefore
+hee this deponent should forbeare to signe any bills of ladeing for the sayd
+<person>Burridge</person> his wines, unlesse one Mr <person>Clapham</person> who was then aboard &amp;#91;?an GUTTER&amp;#93;
+<occupation>English shipp</occupation> at <place>Oratava Roade</place>, or some other person would in behalfe of
+the sayd <person>Burridge</person> pay <money>fifty eight ryalls</money> a pipe for admission money
+as aforesayd, And hee saith that hee this deponent having recieved &amp;#91;XXX GUTTER&amp;#93;
+sayd letter did demande of the sayd <person>Clapham</person> in the <place>Roade of Oratava</place>
+<material>fiftie eight Ryalls</material> a pipe, for admission money, for &amp;#91;?tenn GUTTER&amp;#93;
+pipes of wine aboard the ''<ship>John and Mary</ship>'', for according to the sayd <person>Bevin</person> &amp;#91;?his GUTTER&amp;#93;
+order, which the sayd <person>Clapham</person> refusing to pay in behalfe of the sayd
+<person>Burridge</person> hee this deponent refused according as the sayd <person>Bevin</person> &amp;#91;?had GUTTER&amp;#93;
+ordered him by letters did refuse to signe any bills of lading for
+sayd tenn pipes of wyne, And further to those articles hee cannot depose.
+
+To the 7th article hee saith hee beleeveth the arlate <person>Travers</person> is dammified to the value of &amp;#91;?five GUTTER&amp;#93;
+<money>pounds sterling</money> at the least by the sayd <person>Burridge</person> his not paying &amp;#91;XXX GUTTER&amp;#93;
+to the sayd <person>Bevin</person>
+to the use of the sayd <person>Travers</person> the sayd <occupation>Admission</occupation> &amp;#91;?money GUTTER&amp;#93;
+(which at <money>58 Ryalls a pipe</money> comes to at least <money>fifteene pounds tenn shillings
+sterling</money>) which <money>five pounds sterling</money> profitt at the least might have bin
+made thereoff in this Port of <place>London</place> if the same had bin paid to the sayd &amp;#91;?Bevin GUTTER&amp;#93;
+and by him invested in wines and sent hither And further
+to this article hee cannot depose./
+}}</text>
+      <sha1>0nyje10b8ug6hvm91i4l8s9ruz9waai</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.108r Annotate</title>
+    <ns>0</ns>
+    <id>5872</id>
+    <revision>
+      <id>88718</id>
+      <parentid>85501</parentid>
+      <timestamp>2015-05-25T08:22:35Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="4293">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=108
+|Side=Recto
+|Status=Missing image; transcribed on 10/04/2013
+|First transcriber=Colin Greenstreet
+|First transcribed=2013/04/10
+|Note=IMAGE: REQUIRES IMAGE (P1160850.JPG)
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image:  }}
+|Transcription=To the 8th article of the sayd allegation hee saith that Mr <person>henry Negus</person>
+and Mr <person>Robert Barker</person> marchants of <place>London</place> and others who had wine laden
+aboard the sayd shipp ''<ship>John and Mary</ship>'' at <place>Loratava</place> by for their Accompts did as
+they told this deponent pay or allowe upon Accompte unto the sayd <person>Bevin</person> as
+laid out by him for them the summe of <money>fifty eight Ryalls per pipe</money> for every
+pipe of wine sent for them in the sayd shipp the voyage in question for Admission
+money, and saith hee beleeveth that all <occupation>English shipps</occupation> which did
+receive aboard them any wines at the <place>Island of Teneriff</place>
+the voyage in question were inforced to pay admission money before they
+were permitted to lade any wines aboard them And further to this article
+hee cannot depose/
+
+To the 9th article hee saith that the tenn pipes predeposed of were put on board
+this deponents shipp in the night tyme (by mistake of the boatsmen who
+brought the same without any noate and told this deponent they were sent to him by Mr <person>Bevin</person> afore=
+sayd (as other boates who came with other wines and without noates alsoe told this
+deponent) by which meanes they came to be laden aboard this deponents shipp
+the ''<ship>John and Mary</ship>'', And saith that after they were soe laden the arlate <person>Roger
+Paxton</person> came aboard of this deponents shipp the ''<ship>John and Mary</ship>'' the next day after they were laden and had free
+leave given him by this deponent to take the sayd Tenn pipes out of
+this deponents shipp and stowe them in his the sayd <person>Paxtons</person> shipp if hee sawe they could safely and without preiudice
+to other wines on board the ''<ship>John and Mary</ship>'' amongst which they were stowed, bee taken
+awaie, and hee saith the sayd <person>Paxton</person> seeing they could not bee conveniently
+removed out of this deponents shipps went away and left them there And
+further to this article hee cannot depose./
+
+To the 10th hee saith hee hath seene a letter wich hee beleeveth to be written
+by the sayd <person>Bevin</person> to the sayd <person>Travers</person> expressing to this effect that by
+reason of the ladeing the sayd tennn pipes of wine by mistake on board
+the ''<ship>John and Mary</ship>'' which should have bin laden aboard the sayd <person>Paxtons</person>
+shipp hee the sayd <person>Bevin</person> did offer the sayd arlate <person>Burridge</person> to lade
+Tenn other pipes of Canarie wine for Accompt of the sayd <person>Travers</person> on board
+the sayd <person>Paxton</person> in compensation of the tenn pipes soe laden aboard
+the ''<ship>John and Mary</ship>'' by mistake as aforesayd, and that the sayd <person>Burridge</person>
+refused to permitt the sayd <person>Bevin</person> soe to doe, and further to this article
+hee cannot depose saving hee saith hee heard the sayd <person>paxton</person> saye his
+shipp came home full laden the sayd voyage and that hee might have
+had more wines laden if hee could have brought them/
+
+To the 11th article of the sayd allegation hee saith hee this deponent was at
+<place>Teneriff</place> the voage in question by some <occupation>English Merchants</occupation> there offered
+<material>seaven pounds sterling a tonne</material> for such proportion as hee would lade
+aboard his shipp from thense for them to carrie the same to <place>London</place> the
+sayd voyage, and saith hee beleeveth the sayd <person>Travers</person> hath satisfied and
+paid or undertaken to pay the Customes and excise of the sayd Tenn pipes
+of <place>Canarie</place> And further to this article hee cannot depose as touching freight
+for that noe bills of ladeing were signed for the sayd Tenn pipes./
+|People=&lt;u&gt;<person>Mr henry Negus</person>&lt;/u&gt;
+
+&lt;u&gt;<person>Mr Robert Barker</person>&lt;/u&gt;
+|Primary sources='''TNA'''
+
+&lt;u&gt;Chancery&lt;/u&gt;
+
+C 5/91/31 Short title: <case>Paxton v Randall</case>. Plaintiffs: <person>Roger Paxton</person>, <person>Margaret Paxton</person> and <person>Christopher Paxton</person>. Defendants: <person>Jane Randall widow</person>, [unknown] <person>Holton</person>, and others. Subject: personal estate of the deceased <person>Henry Paxton</person> of <place>Lombard Street</place>, <place>London</place>. Document type: bill, answer. <date>1686</date>
+
+&lt;u&gt;PROB&lt;/u&gt;
+
+PROB 11/254/480 Will of <person>Robert Barker</person>, <occupation>Merchant</occupation> of <place>London</place>. <date>14 May 1656</date> <date>10 October 1692</date>
+PROB 11/321/396 Will of <person>Henry Negus</person>, <occupation>Merchant</occupation> of <place>Norwich</place>, <place>Norfolk</place>. <date>09 August 1666</date>
+PROB 11/411/434 Will of <person>Robert Barker</person> of <place>Saint Dunstan in the East</place>, <place>City of London</place>.
+PROB 11/454/366 Will of <person>Roger Paxton</person>, <occupation>Mariner</occupation> of <place>Redriffe</place>, <place>Surrey</place>. <date>04 March 1700</date>
+}}</text>
+      <sha1>nb55qprulv7twdwk60xic0zr2u49k8q</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.108v Annotate</title>
+    <ns>0</ns>
+    <id>5363</id>
+    <revision>
+      <id>88719</id>
+      <parentid>35769</parentid>
+      <timestamp>2015-05-25T08:23:57Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3237">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=108
+|Side=Verso
+|Status=Missing image; transcribed on 11/04/2013
+|First transcriber=Jill Wilcox
+|First transcribed=2013/04/11
+|Editorial history=Edited on 01/05/2014 by Colin Greenstreet
+|Note=IMAGE: REQUIRES IMAGE (P1160851)
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: 1160851}}
+|Transcription=To the 12 article of the sayd allegation hee saith that the <material>Charterparty</material> arlate
+now showed to him this deponent was signed sealed and delivered by him this
+deponent to the use of the sayd <person>Travers</person> and a Counterpart thereof signed
+sealed and delivered by the sayd <person>Travers</person> to the use of this deponent and the rest of
+the owners of the shipp ''<ship>John and Mary</ship>'' and that all the contents of the sayd
+<material>Charterparty</material> are tried and all things soo had done as in the same is conteyned
+And the words '''<person>William Webber</person>''' at the bottom thereof and his this deponents owne hand
+writing And further to this article hee cannot depose./
+
+To the last hee saith his foregoeing deposition is true./
+
+To the Interrogatories./ &amp;#91;CENTRE HEADING&amp;#93;
+
+To the first Interrogatorie hee saith he cometh to testifie in this
+cause at the request of the producent <person>Mr Travers</person> and saith hee
+hath noe share or interest in the goods in question saving his
+<term>Average and Primage</term> due for them as <occupation>master</occupation> of the sayd shipp which hee expecteth of whome =
+soever they sahll bee adjudged to belonge to whether to <person>Travers</person>, or
+<person>Bowridge</person>, or <person>Spicer</person> the parties in this suite, and saith it will bee
+noe benefitt or preiudice to this deponentwhich soeever of the parties
+litigant prevaile in this cause and that hee favoureth all the parties
+litigant a like and desyreth right may prevaile./
+
+To the 2 hee saith that the sayd <person>Mr Travers</person> in regard hee
+was not acquainted with merchants who were at the <place>Teneriff</place> the
+voyage in question did desyre is this deponent to speake to some that
+hee this deponent was acquainted with and had bin at the <place>Teneriff</place> the
+sayd voyage and were returned thense, to testifie in the behalfe of
+the sayd <person>Mr Travers</person> whether they did not pay admission money
+that voyage for, what wynes they laded, and this deponent did accordingly
+speake to one <person>Mr Chapman</person> and one <person>Mr Rowe</person> and <person>Mr Ingram</person>  &amp;#91;?merchants GUTTER&amp;#93;
+to this effect aforesayd and they answered that they were unwilling
+to testifie in this cause unlesse they were compelled by order of this Court &amp;#91;?And GUTTER&amp;#93;
+to the rest of this Interrogatorie hee answereth negatively./
+
+To the 3 hee saith hee was aboard the ''<ship>John and Mary</ship>'' when the tenn
+pipes of wyne in question were brought aboard her and saith &amp;#91;?hee GUTTER&amp;#93;
+did aske those who brought them for a noate and they answered &amp;#91;?they GUTTER&amp;#93;
+had none, and sayd they came from <person>Mr Bevin</person> (as too other boat&amp;#91;?s GUTTER&amp;#93;
+which came with them and brought wines alsoe without noates &amp;#91;XXX GUTTER&amp;#93;
+whereupon hee this deponent tooke them aboard the ''<ship>John and
+Mary</ship>'' together with the wines in the two other boates it being
+the night tyme and showed them aboard the sayd shipp among &amp;#91;XXX GUTTER&amp;#93;
+wynes sent by the sayd <person>Mr Bevin</person> And further saving his
+foregoeing deposition hee cannot answere otherwise then negatively./
+
+To
+}}</text>
+      <sha1>td7o7aqxgydowrs8s4d9oyg1z2zud99</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.109r Annotate</title>
+    <ns>0</ns>
+    <id>5456</id>
+    <revision>
+      <id>88720</id>
+      <parentid>36293</parentid>
+      <timestamp>2015-05-25T08:25:01Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3061">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=109
+|Side=Recto
+|Status=Missing image; transcribed on 11/04/2013
+|First transcriber=Jill Wilcox
+|First transcribed=2013/04/11
+|Editorial history=Edited on 01/05/2014 by Colin Greenstreet
+|Note=IMAGE: REQUIRES IMAGE (P1160852)
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: 1160852}}
+|Transcription=To the 4th hee saith hee sawe noo <material>Indulto</material> or <occupation>admission money</occupation> paid
+or heard any agreement made touching the same, but what hee hath predeposed is
+according to letters received from the sayd <person>Bevin</person>, and by reason hee heard
+a Spaniard name don <person>Christopher da Alvaratha</person> saye in this deponents presense that hee had in
+behalfe of the sayd <person>Bevin</person> and his principalls made an agreement for a <money>thousend and some odd hundred of peeces of eight</money> (the summe hee
+doth not now more certaynly remember) with the Generall of <place>Teneriff</place> to lade the shipp ''<ship>John and Mary</ship>'' with wines under
+<material>Colours</material> of her being for <occupation>Accompt</occupation> of <place>dutch merchants</place> And further saving
+his foregoeing deposition hee cannot answere./
+
+To the 5th hee hath satisfied the contents of this Interrogatoies his fore
+goeing deposition soo farr as hee can, and saving his foregoeing deposition
+and his answeres to the ensueing Interrogatories hee cannot further
+answere to his Interrogatorie/
+
+To the 6th hee saith hee well knoweth the Interrogate <person>Bevin</person> and saith hee
+was a <occupation>factor</occupation> at <place>Tenerifee</place> for the Interrogate <person>Travers</person>, and saith the
+noate Interrogate was delivered to him this deponent the next day
+after the ladeing the tenn pipes of wine predeposed of, and beleeveth
+the same noate to bee the sayd <person>Bevins</person> hand writing all of it, And
+saith hee answered thereto as before is deposed, did not denye the
+delivery of them to the sayd <person>Paxton</person> if they could bee taken
+out of the shipp where they were laden without doeing hurt to the
+other wines with which they were stowed, and the sayd <person>Paxton</person> seeing
+the same could not bee taken out without prejudice to the other wines
+and danger of staving some of them, did of his owne accord leave
+them aboard the ''<ship>John and Mary</ship>'' as aforesayd And further to his
+Interrogatorie hee cannot answere/
+
+To the 7th hee saith hee hath satisfied the contents thereof before and
+given reasons why hee did not signe the bills of ladeing Interrogate/
+
+To the 8th hee saith
+hee beleeveth the
+wines Interrogate were laden by order of the interrogate <person>Burridge</person>
+by reason of the noate he received the next day from <person>Mr Bevin</person> to
+deliver them to <person>Paxton</person>, but as touching the propriety of them her
+knoweth not what to beleeve And further to his Interrogatorie hee
+cannot answere./
+
+To the 9th saving his foregoeing deposition hee cannot more
+fully answere to his interrogatorie/
+
+To the 10th hee saith hee brought home his merchants full
+tunnage according to <material>Charterparty</material>, and to the rest of the interrogatorie
+hee saith hee hath satisfied the contents thereof before./
+
+To the 11th hee saith saving his foregoeing deposition
+
+Repeated before <person>doctor Godophin</person> and <person>Colonell Cork</person>/
+
+<person>Wm Webber</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+}}</text>
+      <sha1>6e88zth991x0wi79co79pecd6jlnsyz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.109v Annotate</title>
+    <ns>0</ns>
+    <id>5597</id>
+    <revision>
+      <id>88725</id>
+      <parentid>88722</parentid>
+      <timestamp>2015-05-25T08:28:17Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3200">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=109
+|Side=Verso
+|Status=Missing image; transcribed on 11/04/2013
+|First transcriber=Jill Wilcox
+|First transcribed=2013/04/11
+|Editorial history=Edited on 13/04/2014 by Colin Greenstreet
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: 1160853}}
+|Transcription=March the <date>6th 1655</date>/
+
+Examination on allgation in on the behalfe of the
+sayd <person>Roger dixon</person>./
+
+<person>Roger dixon</person> against <person>William Pyle</person>&amp;#125;
+<person>Cheeke Suckley</person>&amp;#125;
+
+'''dt&amp;#58; <person>Cheeke</person>/'''
+
+'''<person>Edward Randall</person>''' of the parish of <place>Saint Katherine Coleman</place>
+<place>London</place> <occupation>Chirurgion</occupation> aged <date>32 yeares</date> or thereabouts a wittnes
+sworne and examined saith and deposeth as followeth videlicet./
+
+To the Sixth and 7th articles of the sayd allegation hee saith that hee well knoweth (being
+upon the island of <place>Barbados</place> where the persons hereafter specified &amp;#91;XXXXed&amp;#93; there) that the arlate <person>Carnabie</person>, <person>Turner</person>
+and divers other (which as the arlate <person>Carnabie</person> sayd
+were of the Company of the shipp ''<ship>Swann</ship>'' arlate) arived at the <place>Barbados</place>,
+And saith the sayd <person>Carnabie</person> did there of this deponents knowledge endeavour
+to apprehend the arlate <person>John Turner</person>, and did lay fellony to his charge
+for a certayne parcell of gold, pretended by by him the sayd <person>Carnaby</person>
+to be taken by the sayd <person>Turner</person> at <place>Ginney</place>, And saith the sayd <person>Turner</person>
+having notice thereof, did absente himselfe and retyred into the
+Countrie there to avoide being taken upon the warrent which the sayd
+<person>Carnabie</person> had procured against him, And saith that hee this deponent
+did mediate with one Master <person>Burdall</person> a friend
+of the sayd <person>Carnabie</person> to get the sayd <person>Turners</person> freedome in the Isle
+of the <place>Barbados</place> and did offer him that in case the sayd <person>Carnabie</person> would
+dissist from prosecuting the sayd <person>Turner</person> touching the sayd business
+hee this deponent would in the behalfe of the sayd <person>Turner</person> redeliver
+to the sayd <person>Carnabie</person> certayne gold (which as the sayd <person>Turner</person> told
+this deponent) was the same gold which the <person>Carnabie</person> pretended the
+sayd <person>Turner</person> had receaved, which notwithstanding hee saith hee knoweth
+the sayd <person>Carnabie</person> did still prosecute the sayd <person>Turner</person> for the sayd
+gold, and (as one <occupation>Captaine</occupation> <person>Mott</person> then Provost Marshall of the <place>Barbados</place>
+told this deponent) did procure a warrent from the <occupation>Governour</occupation> of the sayd
+Island to prosecute the sayd <person>Turner</person> as a fellon for takeing the sayd gold
+whereupon the sayd <person>Turner</person> to avoide the prosecution of the sayd <person>Carnabie</person>
+did of this deponents knowledge shipp him selfe in a shipp belongin to <place>Bristoll</place>
+in <place>England</place> (but whether shee was bound hee knoweth not) and saith
+hee beleeveth the sayd <person>Turner</person> never returned to the service of the arlate &amp;#91;dixon GUTTER&amp;#93;
+his <occupation>master</occupation> And this hee
+beleeveth for that hee heard his sayd <occupation>Master</occupation> saye soe much And further
+to this article hee cannot depose/
+
+To the 9th article of the sayd allegation hee saith that hee well knoweth
+that the sayd <person>Turner</person> (at the tyme hee was soe prosecuted by the sayd
+<person>Carnabie</person> at the <place>Barbados</place> touching the sayd Gold) was hyred to goe
+<occupation>Chirurgion</occupation> in a shipp called the ''<ship>Hopewell</ship>'' of <place>London</place> of which was &amp;#91;XXXXX GUTTER&amp;#93;
+&amp;#91;?and GUTTER&amp;#93;
+|Primary sources='''TNA'''
+
+&lt;u&gt;PROB&lt;/u&gt;
+
+PROB 11/266/410 Will of <person>Edward Randall</person>  <date>05 August 1657</date>
+}}</text>
+      <sha1>czqz044ex5ud0qsvs9v1m9tujaoxkes</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.110r Annotate</title>
+    <ns>0</ns>
+    <id>6380</id>
+    <revision>
+      <id>86011</id>
+      <parentid>41707</parentid>
+      <timestamp>2015-05-21T14:24:03Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="2925">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=110
+|Side=Recto
+|Status=Uploaded image; transcribed on 27/10/2012
+|First transcriber=Jill Wilcox
+|First transcribed=2012/10/27
+|Editorial history=Edited on 16/01/2013, on 01/05/2014 and on 03/11/2014 by Colin Greenstreet
+|Note=IMAGE: P1080977.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1080977.JPG}}
+|Transcription=and <person>Captaine ffarlowe</person> but in regard of the sayd <person>Carnbies</person> prosecution
+of him the sayd <person>Turner</person> touching the sayd Gold, hee the sayd <person>Turner</person> to avoide
+the sayd prosecution was of this deponents knowledge forced to loose his sayd imployment and to shipp
+himselfe in the sayd shipp belonging to <place>Bristoll</place>, and this deponent
+knoweth that hee the sayd <person>Turner</person> agreed to pay for his passage in the sayd
+<place>Bristow</place> shipp, but for how much hee remembreth not, soo hee beleeveth
+the arlate <person>Roger dixon</person> is by reason of the sayd <person>Carnabies</person> prosecution
+of the sayd <person>Turner</person> in manner aforesayd dammified to the
+value of <money>tenn pounds sterling</money> at the least And further to this
+article hee cannot depose./
+
+To the rest of the articles hee is not examined by direction of
+the producent./
+
+<person>Edward Randall</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+
+Repeated before <person>doctor Goldolphin</person>
+
+&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;
+
+The <date>10th of March 1655</date> &amp;#91;CENTRE HEADING&amp;#93;
+
+<person>Travers</person> against <person>Burridge</person> and <person>Spicer</person>&amp;#125;
+<person>Baker Smith</person>&amp;#125;
+
+Examined on the allegation on behalfe of the
+sayd <person>Travers</person>./
+
+'''Rp. 2 us'''
+
+'''<person>Thomas Bland</person>''' of the parish of <place>Saint Stephen Colemanstreete</place>
+<place>Cittizen and Scrivener</place> of <place>London</place> aged <date>32 yeares</date> or thereabouts
+a wittnes sworne and examined saith and deposeth as
+followeth videlicet/
+
+To the 1&amp;#58; 2&amp;#58; 3&amp;#58; 4th 5th 6th 7th 8th 9th 10th 11th and 12th articles of
+the sayd allegation hee saith that the <material>Charterparties</material> in the sayd <number>12th
+articles</number> mentoned and now shewed unto him at the tyme and this his
+examination was signed sealed and delivered by the arlate <person>William
+Webber</person> to the arlate <person>Travers</person> in the presense of this deponent
+and his contest <person>Thomas Nicholls</person> his this deponents servant
+whose name is alsoe subscribed thereto as a wittnes And saith
+that the contents of the sayd <material>Charterparty</material> are true and were soe
+had and done as in the same is conteyned And further to these
+articles hee cannot depose./
+
+To the 13th hee saith his foregoeing deposition is true./
+
+To the Interrogatories &amp;#91;CENTRE HEADING&amp;#93;
+
+To the first Interrogatorie hee cometh to testifie the truth in this cause
+being soe required by the producent <person>Mr Travers</person> and saith hee
+favoreth all the parties litigant alike and desyreth right may prevaile
+therein and to the rest of the Interrogatorie hee answereth negatively./
+|Primary sources='''TNA'''
+
+&lt;u&gt;PROB&lt;/u&gt;
+
+PROB 11/325/586 Will of <person>Thomas Bland</person>, <occupation>Scrivener</occupation> of <place>London</place> <date>14 December 1667</date>
+}}</text>
+      <sha1>1efkvgwj9gk77idhboc7yla8ufmgfb8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.110v Annotate</title>
+    <ns>0</ns>
+    <id>6030</id>
+    <revision>
+      <id>88732</id>
+      <parentid>85578</parentid>
+      <timestamp>2015-05-25T08:33:29Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="1224">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=110
+|Side=Verso
+|Status=Missing image; transcribed
+|First transcriber=Jill Wilcox
+|Note=IMAGE: REQUIRES IMAGE (P1160855)
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: 1160855}}
+|Transcription=To the second negatively for his part and further hee cannot answere./
+
+To the 3 hee saith hee X was not aboard the <ship>John and mary</ship> the tyme interrogation
+And to the rest of the interrogatory hee cannot Answere knowing nothing thereof/
+
+To the 4th hee saith it concerneth nim not to answere thereto having not deposed
+touching the matters Interrogate/
+
+o the 5th hee cannot answere not being in the voyage in question./
+
+o the 6th hee saith hee knoweth not the Interrogate <person>Bevin</person> And to the
+rest of the Interrogatory hee cannot answere not being in the voyage in question/
+
+To the 7th and 8th Interrogatory hee cannot answere not being in the voyage aforsayd
+
+To the 9th and 10th Interrogatory hee cannot answere XX XXXXX XXXX negatively XX
+XX XX not being present in the voyage in question./
+
+To the last hee saith for the reasons aforesayd hee cannot answere
+therto./
+
+Repeated before <person>doctor Godolphin</person>/
+
+<person>Tho</person>&amp;#58; <person>Clante</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+}}</text>
+      <sha1>g0vhr4965wcj3pfwwwcptoxqmv9pj0g</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.111r Annotate</title>
+    <ns>0</ns>
+    <id>6074</id>
+    <revision>
+      <id>86176</id>
+      <parentid>39850</parentid>
+      <timestamp>2015-05-21T18:08:40Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3447">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=111
+|Side=Recto
+|Status=Uploaded image; transcribed on 31/10/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/10/31
+|Editorial history=Edited on 28/12/2012 by Colin Greenstreet, on 04/06/2013 by Jill Wilcox and on 29/04/2014 by Colin Greenstreet
+|Note=IMAGE: P1080979.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1080979.JPG}}
+|Transcription='''A.6.'''
+
+On the <date>fourth of March 1655</date>. &amp;#91;CENTRE HEADING&amp;#93;
+
+<person>Titus Camplaine</person> against <person>Brandline</person>&amp;#125;
+and Company <person>Clements Smith</person>&amp;#125;
+
+Upon the arlate allegation given in
+and admitted on <person>Clements</person> his behalfe.
+
+'''Clements dt.'''
+
+'''<person>Gregory Warden</person>''' of <place>Ipswich</place> in the <place>County of
+Suffolk</place> <occupation>Shipwright</occupation> where he hath lived the most part
+of his life, and borne there, aged about <date>36 yeares</date>
+a wittnes produced and sworne and being examined hee
+deposeth as followeth.
+
+To the first, second, third, fourth, fifth sixth and seaventh articles
+of the sayd allegation &amp;#91;?he&amp;#93; deposeth and saith That it chanced
+that he this deponent and the arlate <person>William Marsh</person> sayled
+together in the summer <date>1654</date> in the shipp called the ''<ship>James</ship>''
+of <place>Ipswich</place> whereof <person>James Jackson</person> was then <occupation>Master</occupation>) in a
+voyage she made to <place>Norway</place>, and that in that voyage he
+this sayd <person>William Marsh</person> did confesse and acknowledge
+to this deponent that as he the sayd <person>Marsh</person> was comming
+or sayling downe from <place>London</place> with the arlate hoy
+or vessell called the ''<ship>Primrose</ship>'' of <place>Ipswich</place> his cable broke
+and that therby the sayd hoy was putt from his anchor and
+that upon the setting of his sayles, his maine sayle blew away
+and that presently after the blowing away of his sayd maine sayle
+the stepp of his <occupation>Mast</occupation> broke through its &amp;#91;?affieage&amp;#93; and that by reason thereof he
+was forced to cutt downe his <occupation>Mast</occupation>, And he further deposeth
+that he the deponent being inquireing of the sayd <person>Marsh</person> how hee
+did escape the danger of the seas being in soe perillous a condition
+he the sayd <person>Marsh</person> sayd that notwithstanding the losse of
+his mainesayle and <occupation>Mast</occupation> he might have saved the vessell
+and goods in case he had had a good cable and a good Anchor
+that he could have trusted unto, but for his sayles he sayd
+That they were all not worth tenne groates, and he the sayd
+<person>Marsh</person> alsoe sayd and confessed unto this deponent that if his
+sayles had bin good he had not helpe sufficient to have beat them
+in regard he had none but himselfe and two boyes aboard the
+sayd hoy or vessell, And that he this deponent did (upon the sayd
+<person>Marsh</person> his saying that all his sayles were not worth tenne groates)
+aske him why he did not desire his Owners to buy new sayles
+And that thereunto the sayd <person>Marsh</person> answered that he had spoken unto
+or desired the Owners to buy new sayles for the sayd vessell
+or hoy arlate and that they would not bestow any cost upon the
+vessell for that they the sayd Owners had taken offense at him and
+that soe long as he (the sayd <person>Marsh</person>) went <occupation>Master</occupation> they would laye
+out noe charge upon her, and that his sayd Owners were reputed
+to turne him out as soone as they could And he further saith and
+deposeth that he &amp;#91;XX XXX XXX XXXXXXXX&amp;#93; did then (as he alsoe since confessed and
+acknowledged unto this deponent) confesse and acknowledge that
+he had sold a chest of sugar marked with the producent <person>Titus Camplaine</person> his marke, And further to the sayd articles hee
+cannot depose.
+
+To the rest of the articles he cannot depose/
+
+To
+}}</text>
+      <sha1>a8p2ckzdmu68qez6aznk8m4rueqy9mg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.111v Annotate</title>
+    <ns>0</ns>
+    <id>5614</id>
+    <revision>
+      <id>88721</id>
+      <parentid>86178</parentid>
+      <timestamp>2015-05-25T08:25:30Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3717">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=111
+|Side=Verso
+|Status=Uploaded image; transcribed on 06/11/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/11/06
+|Editorial history=Edited on 29/04/2014 by Colin Greenstreet
+|Note=IMAGE: P1080980.JPG - REQUIRES IMPROVED IMAGE
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1080980.JPG}}
+|Transcription=To the Interrogatories in the first place. &amp;#91;CENTRE HEADING&amp;#93;
+
+To the sayd Interrogatory ministred on the &amp;#91;XXX XXX XXXXXX&amp;#93; and &amp;#91;?others&amp;#93; the &amp;#91;XXXXXXXXX&amp;#93; not of the &amp;#91;XXX GUTTER&amp;#93;
+the ''<ship>Primrose</ship>'' her Company
+and that he cannot now remember, whether the interrate &amp;#91;XXX GUTTER&amp;#93;
+did in his relation of all that befell him &amp;#91;XXXing&amp;#93; his comming
+from <place>London</place> with the sayd hoy till this &amp;#91;XXXXXX XX GUTTER&amp;#93;
+certaine place where he anchored, but he sayeth that in the
+sayd relation he the sayd <person>Marsh</person> told this Rendent that &amp;#91;?he GUTTER&amp;#93;
+intended for <place>Ipswich</place>, And further he cannot anweare.
+
+To the Interrogatories in the second place. &amp;#91;CENTRE HEADING&amp;#93;
+
+To the sayd Interrogatorie hee answereth that the acknowledgment of
+the &amp;#91;?interrogated&amp;#93; <person>Thomas Marsh</person> layd downe in his this &amp;#91;XXX GUTTER&amp;#93;
+Rendents deposition was on board the shipp the ''<ship>James</ship>'' &amp;#91;?at GUTTER&amp;#93;
+<place>Ipswich</place> but on what certaine day he cannot now &amp;#91;XXXX GUTTER&amp;#93;
+
+To the Interrogatories in the third place. &amp;#91;CENTRE HEADING&amp;#93;
+
+To the first second, third , fourth, fifth, sixth seaventh
+eighth, ninth, tenth and eleaventh he &amp;#91;XXXX&amp;#93; knoweth
+not to answeare being none of the interrate bessell the ''<ship>Primrose</ship>'' &amp;#91;?or GUTTER&amp;#93;
+her Company at the time interrate/
+
+To the Interrogatories in the fourth place ministred.
+
+To the first Interrogatory hee commeth to testify at the request of
+<person>Titus Camplaine</person> the producent, who told him this Rendent that if &amp;#91;?he GUTTER&amp;#93;
+would not come by fair faire, he should come by fowle meanes
+And to the rest he answereth negatively./.
+
+To the second Interrogatory he answereth that he hath &amp;#91;?seene the sayd GUTTER&amp;#93;
+shipp the ''<ship>Primrose</ship>'', but was never in her as &amp;#91;?he remembreth GUTTER&amp;#93;
+And otherwise to the sayd Interrogatory he cannot answere./.
+
+To the fourth, fifth, sixth seaventh, eighth, &amp;#91;XXXX&amp;#93;th, tenth eleaventh
+and twelveth Interrogartoryes he answereth that he referreth himselfe
+to his former deposition And further he cannot answere &amp;#91;XX GUTTER&amp;#93;
+that the sayd time as the interrate &amp;#91;the vessell&amp;#93; the ''<ship>Primrose</ship>'' came &amp;#91;?a GUTTER&amp;#93;
+shoare at <place>Graveling</place> the goods in her were dry./
+
+Repeated before <person>doctor Godolphin</person>.
+
+The marke of
+<person>Gregory Warden</person>./ &amp;#91;MARKE, RH SIDE&amp;#93;
+
+&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;
+
+The <date>5th of March 1655</date>
+
+A business of <occupation>Ensurance</occupation> touching the losse of certayne&amp;#125;
+goods and merchandizes laden a board the shipp ''<ship>James</ship>''&amp;#125;
+of <place>London</place> whereof <person>George Cobden</person> was late&amp;#125;
+<occupation>Master</occupation>.&amp;#125;
+
+Examined upon certaine Interrogatories as &amp;#91;XXX GUTTER&amp;#93;
+in and administred on the part and behalfe of
+<person>henry Clarke</person> of <place>London</place> <occupation>Merchant</occupation> &amp;#91;XXXXX GUTTER&amp;#93;
+
+'''Rp. &amp;#91;XX XXXX&amp;#93;o'''
+
+'''<person>George Cobden</person>''' of <place>Shadwell</place> in the parish of <place>Stepney</place>
+<place>County of Middlesex</place> <occupation>mariner</occupation> late <occupation>Commander</occupation> of the sayd &amp;#91;XXX GUTTER&amp;#93;
+''<ship>James</ship>'' aged <date>53 yeares</date> or thereabouts a wittnes sworne &amp;#91;?and GUTTER&amp;#93;
+examined saith as followeth videlicet./
+
+&amp;#91;?To GUTTER&amp;#93;
+|Primary sources='''TNA'''
+
+--PROB__
+
+PROB 11/379/329 Will of <person>George Cobden</person>, <occupation>Mariner</occupation> being now on board the <ship>Ship Primrose</ship> of <place>Bristol</place> of <place>City of London</place> <date>28 February 1685</date>
+}}</text>
+To properly incorporate Named Entity Recognition (NER) for the specified categories within the existing XML structure, I've identified and tagged entities for Persons, Places, Ships, Dates, Times, and Materials or Commodities. Here is the modified XML content:
+
+```xml
+<text xml:space="preserve" bytes="3878">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=112
+|Side=Recto
+|Status=Uploaded image; transcribed on 02/11/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/11/02
+|Editorial history=Edited on 29/04/2014 by Colin Greenstreet
+|Note=IMAGE: P1080982.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1080982.JPG}}
+|Transcription=To the first Interrogatorie first hee saith hee well knew the shipp <ship>James</ship>
+and is him selfe the Interrogate <person>George Cobden</person>, and was Master of her at her
+last being in the Island of <place>Barbadoes</place> Interrogate and saith shee was then bound
+from thense on a voyage to this Port of <place>London</place> (the casualties of the sea excepted)
+And further to this Interrogatorie he cannot answere/
+
+To the 2 Interrogatorie and the bills of ladeing threin mentioned hee saith
+that the three bills of ladeing in the sayd Interrogatorie mentioned are
+signed with the proper hand writing of him this deponent the forenamed
+<person>George Cobden</person> and the contents of them are true and saith the severeall goods in
+the sayd bills of ladeing specified were at the <place>Barbadoes</place> aforesayd in the moneth of <date>September 1654</date> laden aboard
+the sayd shipp <ship>James</ship> under the markes and numbers in the sayd bills specified
+and for Accompte of the severall persons in the sayd bills named and were
+for their Accompt to bee thense transported to this Port of <place>London</place> And
+further to this Interrogatorie hee cannot answere/
+
+To the third Interrogatorie hee saith hee well knoweth that the sayd shipp sett sayle
+from the <place>Barbadoes</place> aforesayd with the goods in the sayd bills of ladeing
+specified on board her intending directly for <place>London</place> and saith hee well knoweth
+that the sayd shipp in her direct course for <place>London</place> mett with very stormie and
+tempestious weather which caused her to spring divers leakes soe that
+shee receaved in at those leakes five foote water in hold, but was with
+continuall pumpeing and much labour kept above water till shee and her company
+were by the sayd stormie weather driven in to the <place>River of Waterford</place> in
+<place>Ireland</place>, where the sayd shipp being haled as neere shoare as shee could
+bee gotten, did by reason of her sayd leakes sinke, by meanes whereof the
+goods in the sayd shipp mentioned in the sayd bills of ladeing were all of
+them soe wett and damnified that the <material>Sugars</material> the most part of them rann to
+<material>Molasses</material>, or <material>Sirrups</material>, and all though the Casks wherein the same was were
+gotten a shoare in to Warehouses at a place called <place>Passage</place> situate
+on the <place>River of Waterford</place> yet the sayd <material>Molasses</material> ranne the most part of it
+out of the sayd Casks in the warehouses where they lay and was thereby lost And
+hee saith the <material>Cotton wools</material> soe much as could bee gotten out of the water
+was alsoe gotten into the sayd warehouses, but soe rotten with wett and damnified
+that the same is of little or noe value and will not as this deponent beleeveth
+be worth to the Owners soe much as will pay for the rent due for the warehouses
+wherein they lye, And saith all the sayd <material>Sugars</material> or <material>Molasses</material> and <material>Cotton wools</material>
+soe damnified which remayne are now in the hands of <person>mr George Cauldron</person>
+Treasurer of this Commonwealth for the <place>City of Waterford</place>, and are of little
+or noe worth to the Owners thereof And further to this Interrogatorie hee
+cannot answere./
+
+Repeated before Col Cock/..&lt;/margin&gt;
+
+<person>George Cobden</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+
+&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;
+
+The same day./
+
+Examined upon the sayd Interrogatories../
+
+'''Rp.'''
+
+'''<person>William Inians</person>''' of <place>ffanchurch Streete London</place> Mariner
+late Masters Mate of the <ship>James</ship> aforesayd aged twenty
+two yeares or thereabouts a wittnes sworne and examined saith and deposeth as followeth videlicet./
+
+&amp;#91;ONE OR TWO LINES MISSING FROM THE DIGITAL IMAGE&amp;#93;
+}}</text>
+      <sha1>fvdpt7yv7gw5l1i01ydi8aq9dang51v</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.112v Annotate</title>
+    <ns>0</ns>
+    <id>5840</id>
+    <revision>
+      <id>130039</id>
+      <parentid>88727</parentid>
+      <timestamp>2019-08-17T13:17:32Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3376">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=112
+|Side=Verso
+|Status=Uploaded image; transcribed on 05/11/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/11/05
+|Editorial history=Edited on 17/6/2013 by Jill Wilcox and on 05/05/2014 by Colin Greenstreet
+|Note=IMAGE: P1080983.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1080983.JPG}}
+|Transcription=and was Masters Mate of her at her last being in the <place>Barbadoes</place> &amp;#91;?Interrate&amp;#93;
+whense shee was bound on a voyage to this Port of <place>London</place> And saith
+to this Interrogatorie hee cannot answere./
+
+To the 2 Interrogatorie hee saith for that hee was Masters Mate of and aboard the <ship>James</ship>
+aforesayd at her last being at the <place>Barbadoes</place> hee well knoweth that in the <date>Moneth
+of September 1654</date> there were laden at the <place>Barbadoes</place> aboard the sayd shipp &amp;#91;?<ship>James</ship>&amp;#93;
+for Accompt of the Interrogate <person>Henry Clarke</person> <person>William Clarke</person> and <person>ffrancis</person> &amp;#91;XXXX&amp;#93;
+these severall parcells of goods following videlicet for Accompt of &amp;#91;?the said&amp;#93;
+<person>Henry Clarke</person> and <person>William Clarke</person> seaven butts of <material>Muscavadoes sugar</material> &amp;#91;?and&amp;#93;
+for Accompt of <person>Henry Clarke</person> one butt and one Punchion of <material>sugar</material> and for &
+
+amp;#91;XXXX&amp;#93;
+of the sayd <person>ffrancis Soane</person> sixe butts one punchion and fower hogsheads of &amp;#91;?<material>sugar</material>&amp;#93;
+and eight baggs of <material>Cotton wooll</material> every parcell marked with the severall &amp;#91;?markes&amp;#93;
+and numbers now appeareing upon the severall bills of ladeing Interr&amp;#91;?ogate&amp;#93;
+now shewed unto him, this hee the better knoweth for that hee helped to lade &amp;#91;?the&amp;#93;
+sayd <material>sugars</material> and <material>woolls</material>, all which were to be thense transported to this Port of
+<place>London</place> And saith hee did not see the Master of the sayd shipp firme bills of &amp;#91;?ladeing&amp;#93;
+for them but saith that having perused the three bills of ladeing Interrogate, &amp;#91;?hee&amp;#93;
+being well acquainted with the hand writeing of <person>George Cobden</person> the master of
+the sayd shipp hee verily beleeveth all the sayd three bills to be signed with the
+proper hand writing of the sayd <person>George Cobden</person> and that all things &amp;#91;XXXXXX&amp;#93;
+in them are true And further to this Interrogatorie hee cannot answere./
+
+To the third Interrogatorie hee saith for the reason aforesayd hee well knoweth that the sayd &amp;#91;?shipp&amp;#93;
+sett sayle from <place>Barbadoes</place> with the sayd goods on board her intending to
+steere her course directly for <place>London</place> and saith the sayd shipp being in &amp;#91;?her direct&amp;#93;
+Course for <place>London</place> mett with stormy and tempestious weather at Sea &amp;#91;XXXX&amp;#93;
+found her upon the Coast of <place>Ireland</place> and into the <place>River of Waterford</place>
+whether shee gott with much difficultie shee being very leakie &amp;#91;XXXXXX&amp;#93;
+neere the shoare there shee And hee saith that by reason of the water and
+receaved into her the sayd <material>sugars</material> and <material>Cottons</material> were soe damnified and &amp;#91;?saith&amp;#93;
+that they were worth little or nothing and are lost to the owners of them &amp;#91;XXX&amp;#93;
+was saved of them being not worth the rent of the Warehouse Roome &amp;#91;XX&amp;#93;
+they were layd, And hee saith hee hath heard and beleeveth they are still in possession of <person>Mr Cauldron</person> The Treasurer of the Commonwealth
+for the <place>City of Waterford</place> And further to this Interrogatorie hee
+cannot answere./
+
+Repeated before Colonell Cock./
+
+<person>Wm Inians</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+|People=<person>Mr Cauldron</person>
+
+Treasurer of the Commonwealth in <place>Waterford</place>
+}}</text>
+      <sha1>obu5m2iwpce14ajct4qep6ibk21ygy6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.113r Annotate</title>
+    <ns>0</ns>
+    <id>6434</id>
+    <revision>
+      <id>88729</id>
+      <parentid>42044</parentid>
+      <timestamp>2015-05-25T08:31:18Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="4799">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=113
+|Side=Recto
+|Status=Uploaded image; transcribed on 26/12/2012
+|First transcriber=Colin Greenstreet
+|First transcribed=2012/12/26
+|Editorial history=Edited on 01/05/2014 by Colin Greenstreet
+|Note=IMAGE: P1140359.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1140359.JPG}}
+|Transcription=The seventh day of <date>March .1655.</date>
+
+Williams and others&amp;#125;
+against <person>Rowse</person> and <person>ffowke</person>.&amp;#125;
+
+Examined upon an allegation on the behalfe of <person>Mr Williams</person>
+and Company.
+
+'''XXXXX dt. 1.'''
+
+'''<person>Humphrey Hardwick</person>''' of <place>Crutched ffriars London</place> merchant aged
+twenty nine yeares or thereabouts sworne and examined saith as
+following. videlicet
+
+To the sayd allegation given in by <person>Mr Smith</person> in the Acts of Court this deponent saith
+that he knoweth well the shipp <ship>Elizabeth and Anne</ship> whereof <person>Richard Langford</person> was
+master being merchant or Supra Cargo of her this last voyage she made, And
+saith moreover that the <material>Currants</material> that were laden in her and now in question did and
+doe belong to the arlate <person>William Williams</person> and Company and they are in the
+quiet possession of the same, which he knoweth to be true for that he this deponent
+caused the same to be laden on board the sayd shipp <ship>Elizabeth and Anne</ship> for their
+use and aććompt, and came himselfe home in the sayd shipp. Since which tyme hee
+hath heard that the sayd <material>Currants</material> have bene arrested by a warrant out of this Court.
+And otherwise cannot depose.
+
+To the Crosse Interrogatories &amp;#91;CENTRE HEADING&amp;#93;
+
+To the first Interrogatory hee saith he was factor to the sayd <person>Williams</person> and Company in this im=
+ployment. and went out and returned SupraCargo as aforesayd. And further ćannot
+answer
+
+To the second Interrogatory he saith that he this Rendent is the same person who by the name of <person>Humphrey
+Hardwick</person> is sayd in this Interrogatory to have bene arrested, and for whom bail is putt into this Court
+to answer the action. And the Interrate <person>Langford</person>, is the same person for whom Bayle is
+in like sort putt into this Court to answer this action. And otherwise he cannot depose.
+
+To the third Interrogatorie he saith he hath neyther part nor share in the sayd <material>Currants</material>; but saith that
+he bought the same as aforesayd, and payd for them with ready money on shippboard
+in <place>Nathalagoe Road</place>. And further he ćannot answer.
+
+To the fourth Interrogatorie he saith he did know one <person>William ffooke</person> who pretended himselfe
+to be Consull of <place>Morea</place> with in the tyme interrogate, and whether he were indeed Consull
+for the English within that tyme hee knoweth not.. And he doth know the interrate
+<person>Thomas Oliver</person> who did pretend himselfe to be vice Consull for the English att <place>Morea</place>
+within the tyme aforesayd; And further or otherwise he cannot answer
+
+To the fifth Interrogatory he saith he mett with and spake with the sayd <person>ffooke</person> first at <place>Zant</place> and
+afterwards in <place>Nathalagoe Road</place>; and that the sayd <person>Thomas Oliver</person> did
+before this Rendent had bought any <material>Currants</material> aćquaint him that neyther the sayd
+<person>ffooke</person> nor himselfe nor any other person for the sayd <person>ffooke</person> had bought any <material>Currants</material>
+in <place>Morea</place> or <place>Nathalagoe</place>. And otherwise negatively for his part
+And otherwise he cannot depose.
+
+To the 6th Interrogatory. he saith he well remembreth that the sayd <person>ffooke</person> was on board the
+<ship>Cesar</ship>
+
+ in <place>Nathalagoe Road</place>, and that he went from the sayd shipp to shoare, But
+what he carryed with him this Rendent knoweth not. and further otherwise than
+negatively canot depose.
+
+To the 7th. Interrogatory he saith he knoweth nothing thereof.
+
+To the 8th Interrogatory he saith the sayd <person>William ffooke</person> did returne on board the <ship>Cesar</ship> from the shoare
+and dyed on board some few dayes after, but this Rendent did not see him during his
+sicknes nor ever heard that hee was poysoned, till his arrivall there. And further
+otherwise than negatively hee cannpt depose.
+
+To the 9th. Interrogatory he saith he remembreth not the particular day or month when the sayd <person>William
+ffooke</person> dyed. but saith he well remembreth that a considerable quantity of the sayd
+<material>Currants</material> were laden before he the sayd <person>ffooke</person> returned from shoare to the <ship>Cesar</ship>, and
+that the better halfe were laden before his death. And further otherwise than
+negatively he ćannot depose.
+
+To the .10th he answereth negatively for his part.
+
+To the 11th he saith that having bought the sayd <material>Currants</material> as aforesayd he did imploy one
+Tappenhe a Greek and one Codge hill aswell before the sayd <person>William ffookes</person> death
+as after to assiste this Rendent in the lading of the sayd <material>Currants</material>. And otherwise
+saving his foregoeing deposition he cannot answer
+
+To
+|Primary sources='''PROB'''
+
+[[Tools: PROB 11/296/306 Will of <person>Humphry Hardwick</person>%2C Merchant of <place>London</place> 08 December 1659|PROB 11/296/306 Will of <person>Humphry Hardwick</person>, Merchant of <place>London</place>  08 December 1659]]
+}}</text>
+      <sha1>e9o05frbpxcauyisawoad5a0gjolpay</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.113v Annotate</title>
+    <ns>0</ns>
+    <id>6363</id>
+    <revision>
+      <id>110562</id>
+      <parentid>110561</parentid>
+      <timestamp>2016-06-03T13:30:27Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="5686">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=113
+|Side=Verso
+|Status=Uploaded image; transcribed on 02/01/2013
+|First transcriber=Colin Greenstreet
+|First transcribed=2013/01/02
+|Note=IMAGE: P1140360.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1140360.JPG}}
+|Transcription=To the 12th Interrogatory This Rendent saith he did heare that some difference arising betw&amp;#91;?eene&amp;#93;
+the sayd <person>William ffooke</person> and sayd Tappenho touching some moneyes which the sayd Tappenho
+had pretended to from the sayd <person>ffooke</person>; he the sayd <person>William ffooke</person> had procured a
+Chouse or Turkish Serjeant to arrest the sayd Tappenho. And the sayd <person>William
+ffooke</person> did demand the sayd Tappenho from this Rendent, But being not required
+to deliver him by the Chouse, and the sayd Tapponho&amp;#93; being his servant this Rendent
+did refuse to deliver him to the sayd <person>ffooke</person>. And otherwise negatively for
+his part. And further he cannot answer
+
+To the .13th, Interrogatory This Rendent saith that the sayd <material>Currants</material> were brought on board the
+<ship>Elizabeth and Anne</ship> in sackes part of which this Rendent sent a shoare for that
+purpose, and hired the rest from the Greekes on shoare. And otherwise nega=
+tively for his part. And further cannot answer
+
+Hmn&amp;#58; Hardwicke &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+
+&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;&amp;#42;
+
+The same say Examined upon the sayd allegation. &amp;#91;CENTRE HEADING&amp;#93;
+
+'''2.'''
+
+'''<person>Captaine Richard Langford</person>''' of <place>Poplar in the County of Middlesex</place> Mariner aged
+fifty five yeares or thereabouts sworne and examined saith as followeth.
+videlicet.
+
+To the sayd allegation in Act&amp;#91;?is&amp;#93; This deponent saith, That the arlate <person>William Williams</person> and
+Company were and are the lawfull Owners Proprietors and Posssessors of the <material>Currants</material>
+in question, which he knoweth for that the same were bought and payd for by and
+with the proper moneyes of the sayd <person>Williams</person> and Company and were laden for
+their accompt upon the <ship>Elizabeth and Anne</ship> whereof this deponent was Captaine or
+master this last voyage&amp;#58;- And otherwise he cannot depose.
+
+To the Crosse Interrogatories &amp;#91;CENTRE HEADING&amp;#93;
+
+To the 1. 2. and 3d. Interrogatories he saith he was master of the sayd shipp the sayd last voyage and so hath
+bene for theis ten yeares last. And that hee this Rendent and his precontest <person>Mr Hardwick</person>
+are the very persons interrate for whom upon account bayle is given to answer thtis Action.
+And as for this Rendent he saith he hath a .16th. part in this last voyage, profit or
+losse. And he saith that the sayd <material>Currants</material> were bought by one <person>William Codgehill</person>
+order of the sayd <person>Mr Hardwick</person> who as the <material>Currants</material> came on board did in this
+Rendents sight deliver money from tyme to tyme to certaine Greekes who were sent to fetch the same to the sayd <person>Codgehill</person> to pay for
+the sayd <material>Currants</material> And the same was done on board the sayd shipp in the <place>Road of Nathalago</place>.
+And otherwise he cannot answer.
+
+To the 4th and 5th. Interrogatorie he saith he saw and spake with the say interrate <person>William ffooke</person>
+on board the <ship>Elizabeth and Anne</ship> in the <place>Road aforesayd</place>. And the sayd <person>ffooke</person>
+affirmed himselfe to be English Consull of <place>Morea</place>. and the sayd <person>Oliver</person> at <place>Petras</place> sayd he was
+the sayd <person>ffookes</person> deputy or Vice Consull, which this Rendent beleiveth was so, and the premisses
+happened within the tyme interrte. And the sayd <person>ffooke</person> did pretend that he had bought
+all the <material>Currants</material> in <place>Morea</place>, but the Contrary soone after appeared, so as this Rendent
+doth not know or beleive that the sayd <person>ffooke</person> had bought the same. howbeit he saith that at
+<place>Z
+
+ant</place> hearing the sayd <person>ffooke</person> say that hee had bought upp all the <material>Currants</material>, this deponent
+sayd iestingly or in a merry way. that he came for <material>Currants</material>, and <material>Currants</material> would have
+or else he would scratch for them. or to that purpose. And otherwise he cannot
+depose.
+
+To the 6. and 7th. he saith he did heare that the sayd <person>ffooke</person> ćarryed some moneyes a shoare out of the
+<ship>Caesar</ship>. And further for his part he cannot answer.
+
+To the .8. 9. and 10th he saith that the <material>Currants</material> in question were the more part of them laden
+before the sayd <person>William ffookes</person> death which happened not long after his returne from
+the shoare on board the <ship>Casar</ship>, but the day and moneth he remembreth not, nor heard
+of any report that he dyed by poison. nor of any &amp;#91;?ioye&amp;#93; made upon his death by any person.
+And further otherwise than negatively he cannot depose.
+
+To the 11. 12. and 13th. Interrogatories he saith that the better part of the <material>Currants</material> were laden before <person>Mr
+ffookes</person> death as aforesayd, and that the sayd <person>Mr Hardwick</person> did employ the interrate Tappenho and
+<person>Codgehill</person> in bringing on board and lading the <material>Currants</material> aswell before <person>Mr ffookes</person> death as
+after, and that he this Rendent receaved the same on board him, and that the sayd <person>ffooke</person> did demand
+the sayd Tappenho &amp;#91;XXX&amp;#93;ing he had a warrant for him, and that the sayd <material>Currants</material> were brought
+on board in sacks the greatest part whereof were sent from aboard the <ship>Elizabeth and</ship>
+<ship>Anne</ship> as belonging to the sayd shipp and her Owners, And some few sackes, as he taketh were
+procured from shoare by the sayd <person>Codgehill</person>. And further otherwise than negatively
+he cannot answere.
+
+Repeated with his precontest before the 2 Judges in Court
+
+P <person>Richard Langforde</person> &amp;#91;SIGNATURE, RH SIDE&amp;#93;
+|Primary sources='''TNA'''
+
+&lt;u&gt;PROB&lt;/u&gt;
+
+PROB 11/408/200 Will of <person>John Langford</person>, Mariner of <place>Wapping Whitechapel</place>, <place>Middlesex</place>  29 January 1692
+PROB 11/447/120 Will of <person>Thomas Langford</person>, Mariner of <place>Stepney</place>, <place>Middlesex</place>  10 August 1698
+|Suggested links=]
+}}</text>
+      <sha1>5cn54ln464gyvdllwyv8y18t4hk2ps5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>HCA 13/71 f.114r Annotate</title>
+    <ns>0</ns>
+    <id>6451</id>
+    <revision>
+      <id>110000</id>
+      <parentid>86013</parentid>
+      <timestamp>2016-05-04T22:13:54Z</timestamp>
+      <contributor>
+        <username>ColinGreenstreet</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="4365">{{PageMetaData
+|Parent volume=HCA 13/71
+|Folio=114
+|Side=Recto
+|Status=Uploaded image; transcribed on 28/10/2012
+|First transcriber=Jill Wilcox
+|First transcribed=2012/10/28
+|Editorial history=Edited on 31/5/2013 by Jill Wilcox and on 09/05/2014 by Colin Greenstreet
+|Note=IMAGE: P1080984.JPG
+}}
+{{PageHelp}}
+{{PageTranscription
+|Transcription image={{#transcription-image: P1080984.JPG}}
+|Transcription=The eighth day of <date>March 1655</date>
+
+The Claime of <person>Maturine Pellicot</person>&amp;#125;
+and company of <place>Amsterdam</place> Owners&amp;#125;
+of the shipp the <ship>ffortune</ship> (whereof&amp;#125;
+<person>Daniel Egerton</person> is Master for the&amp;#125;
+sayd shipp and her tackle apparell&amp;#125;
+and furniture taken and seized&amp;#125;
+by the <ship>dartmouth frigot</ship> in the immed=&amp;#125;
+late serice of the Commonwealth&amp;#125;
+of <place>England</place> and Budd ffrancklyn&amp;#125;
+
+Examined upon an allegation the behalfe of the sayd
+Claymers
+
+'''<person>Daniel Egerton</person>''' of <place>Amsterdam</place> Mariner master of the
+sayd shipp the <ship>ffortune</ship> aged forty two yeares or there
+abouts a witnes produced sworne and examined saith
+as followeth videlicet.
+
+To the first Article of the sayd allegation this deponent saith that the arlate
+shipp the <ship>ffortune</ship> having in her a lading of <material>wines</material> was seized and
+taken by the <ship>dartmouth frigott</ship> being one of the frigotts in the immediate
+service of the Commonwealth of <place>England</place> upon the <date>thirtyeth day of January
+last past 1656</date>. new style. which he knoweth being master of the sayd shipp
+and on board her when she was so seized. And otherwise he cannot depose
+
+To the second article of the sayd allegation, this deponent saith that this deponent and
+Company did not at the tyme of the sayd seizure or before oppose the sayd <ship>dartmouth
+frigot</ship>, nor did the shipp <ship>ffortune</ship> att all fly from, or this deponent and
+Company use any Endeavours to fly from the sayd <ship>dartmouth frigot</ship>, but did
+willingly upon the first summons submitt the sayd shipp and her lading to be
+visited and seized by the Company of the said frigot, severall of whom
+soone after the sayd summons came on board the <ship>fortune</ship> and seized her and
+her lading and afterwards brought &amp;#91;XX&amp;#93; same into the downes, all which was
+done without any opposition made by this deponent or any of his Company. which
+he knoweth being master of the sayd shipp and an eye witnesse of the premisses
+And otherwise he cannot depose
+
+To the third article of the sayd allegation he saith that being summoned by a shott from the
+sayd frigot he this deponent immediately struck and lowered his maintop saile,
+so as the Captaine and Company of the sayd frigot did or well might see the
+same. And soone after this deponent did alsoe strike and lower his
+foresayle, and kept the same so strucken and lowered. And otherwise or
+further cannot depose, saving that he beleiveth he did what was his duty
+and as much as is usuall and requisit in like cases in the striking of this
+sayles as aforesaid, saying that noe manner of Opposition was used by this
+deponent or Company against the said frigott, as before he hath also declared
+
+To the last he saith his foresayd deposition is true.
+
+To the Crosse Interrogatorie. &amp;#91;CENTRE HEADING&amp;#93;
+
+To the first Interrogatory, this Rendent saith that he sayled with his shipp <ship>ffortune</ship>
+off from the ffrench Coast directly to the Duynes, and that the sayd frigott
+mett the sayd shipp having sayled along the Beach, so as the sayd frigott
+did not chase the <ship>fortune</ship> or the <ship>ffortune</ship> fly from the frigott att all. And when this
+Rendent first sawe the sayd frigot she was off of the beach not farr from the shoare; And
+when the <ship>ffortune</ship> was boarded she was about a dutch mile or two English
+miles from shoare. And further or otherwise he cannot answere.
+
+

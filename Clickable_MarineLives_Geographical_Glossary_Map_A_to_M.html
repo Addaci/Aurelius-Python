@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_53a048431d2e1f456afbf4a52be22fa7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_53a048431d2e1f456afbf4a52be22fa7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_53a048431d2e1f456afbf4a52be22fa7 = L.map(
+                "map_53a048431d2e1f456afbf4a52be22fa7",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1895bac6357a85fa382866f87773e202 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var marker_514fe5b1c522f56cdb25d674dd90054d = L.marker(
+                [38.25, 21.75],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_c70224053a0fa608fd3e0cad18e619f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_514fe5b1c522f56cdb25d674dd90054d.setIcon(icon_c70224053a0fa608fd3e0cad18e619f0);
+        
+    
+        var popup_c031e3142a8016f14deb50152f2b450f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87c040745c82ea4c5762b3f16cf83594 = $(`<div id="html_87c040745c82ea4c5762b3f16cf83594" style="width: 100.0%; height: 100.0%;"><b>Achean</b><br><a href="https://en.wikipedia.org/wiki/Achaeans" target="_blank">Achaeans</a></div>`)[0];
+            popup_c031e3142a8016f14deb50152f2b450f.setContent(html_87c040745c82ea4c5762b3f16cf83594);
+        
+
+        marker_514fe5b1c522f56cdb25d674dd90054d.bindPopup(popup_c031e3142a8016f14deb50152f2b450f)
+        ;
+
+        
+    
+    
+            var marker_32f770786e397c462cf88f7fb5c08f2f = L.marker(
+                [5.1667, 97.1333],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_c3659d3c7b6c25291903dd7694f2b9e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_32f770786e397c462cf88f7fb5c08f2f.setIcon(icon_c3659d3c7b6c25291903dd7694f2b9e8);
+        
+    
+        var popup_280faa9fe46326db4a78f05a5b0a7090 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6733be7e8865ba5123c4b9ac6234dda7 = $(`<div id="html_6733be7e8865ba5123c4b9ac6234dda7" style="width: 100.0%; height: 100.0%;"><b>Achine</b></div>`)[0];
+            popup_280faa9fe46326db4a78f05a5b0a7090.setContent(html_6733be7e8865ba5123c4b9ac6234dda7);
+        
+
+        marker_32f770786e397c462cf88f7fb5c08f2f.bindPopup(popup_280faa9fe46326db4a78f05a5b0a7090)
+        ;
+
+        
+    
+    
+            var marker_d973824d2e5b270c36cc0e2ee4a4b406 = L.marker(
+                [1.0, 17.0],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_00d4dd8e408b40d9866c9b1157ce34fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d973824d2e5b270c36cc0e2ee4a4b406.setIcon(icon_00d4dd8e408b40d9866c9b1157ce34fd);
+        
+    
+        var popup_8fe68310e4f3cfb8c19177d29b1c55cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f423fe2292dde04a4b5a3df99d8d2295 = $(`<div id="html_f423fe2292dde04a4b5a3df99d8d2295" style="width: 100.0%; height: 100.0%;"><b>Affrica</b><br><a href="https://en.wikipedia.org/wiki/Africa" target="_blank">Africa</a></div>`)[0];
+            popup_8fe68310e4f3cfb8c19177d29b1c55cb.setContent(html_f423fe2292dde04a4b5a3df99d8d2295);
+        
+
+        marker_d973824d2e5b270c36cc0e2ee4a4b406.bindPopup(popup_8fe68310e4f3cfb8c19177d29b1c55cb)
+        ;
+
+        
+    
+    
+            var marker_b90f69f110350f250d8080b416891ce8 = L.marker(
+                [51.5161, -0.0972],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_c969c645f2fdd041eccffe5bb6a17676 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b90f69f110350f250d8080b416891ce8.setIcon(icon_c969c645f2fdd041eccffe5bb6a17676);
+        
+    
+        var popup_801b232996497962f8c97856f853062b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46d3107149c4a82d788cbf964813117b = $(`<div id="html_46d3107149c4a82d788cbf964813117b" style="width: 100.0%; height: 100.0%;"><b>Aldermanburie</b></div>`)[0];
+            popup_801b232996497962f8c97856f853062b.setContent(html_46d3107149c4a82d788cbf964813117b);
+        
+
+        marker_b90f69f110350f250d8080b416891ce8.bindPopup(popup_801b232996497962f8c97856f853062b)
+        ;
+
+        
+    
+    
+            var marker_f8c6ced7755523583a8f5d9de726d376 = L.marker(
+                [36.2167, 37.1667],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_f932751cd611187fa83068ad04aef6b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8c6ced7755523583a8f5d9de726d376.setIcon(icon_f932751cd611187fa83068ad04aef6b9);
+        
+    
+        var popup_439fc64c90ef13affcd4289a6e381092 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a737180094ff5f8e7ef035df57ec0f27 = $(`<div id="html_a737180094ff5f8e7ef035df57ec0f27" style="width: 100.0%; height: 100.0%;"><b>Aleppo</b><br><a href="https://en.wikipedia.org/wiki/Aleppo" target="_blank">Aleppo</a></div>`)[0];
+            popup_439fc64c90ef13affcd4289a6e381092.setContent(html_a737180094ff5f8e7ef035df57ec0f27);
+        
+
+        marker_f8c6ced7755523583a8f5d9de726d376.bindPopup(popup_439fc64c90ef13affcd4289a6e381092)
+        ;
+
+        
+    
+    
+            var marker_f3bad2ea4c8dbf054f3384655ee33d1a = L.marker(
+                [38.35, -0.4833],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_ca1286fdd49d0de0ddc1a02b9cb27557 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f3bad2ea4c8dbf054f3384655ee33d1a.setIcon(icon_ca1286fdd49d0de0ddc1a02b9cb27557);
+        
+    
+        var popup_147101976860bf25adb2b56c9f0798d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54525a0cba55790ea5231980fb1acd2a = $(`<div id="html_54525a0cba55790ea5231980fb1acd2a" style="width: 100.0%; height: 100.0%;"><b>Allecante</b><br><a href="https://en.wikipedia.org/wiki/Alicante" target="_blank">Alicante</a></div>`)[0];
+            popup_147101976860bf25adb2b56c9f0798d1.setContent(html_54525a0cba55790ea5231980fb1acd2a);
+        
+
+        marker_f3bad2ea4c8dbf054f3384655ee33d1a.bindPopup(popup_147101976860bf25adb2b56c9f0798d1)
+        ;
+
+        
+    
+    
+            var marker_be1795697085417caacff0339daa69bd = L.marker(
+                [51.5108, -0.0786],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_766df1f30d82f429d0316241eef5c4d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be1795697085417caacff0339daa69bd.setIcon(icon_766df1f30d82f429d0316241eef5c4d1);
+        
+    
+        var popup_024ed45fca6849acf07b91eb8c1de1ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e815d86b4fd5f1b0d0c585dc1884aeab = $(`<div id="html_e815d86b4fd5f1b0d0c585dc1884aeab" style="width: 100.0%; height: 100.0%;"><b>All Hallowes Barking</b><br><a href="https://en.wikipedia.org/wiki/All_Hallows-by-the-Tower" target="_blank">All Hallows-by-the-Tower</a></div>`)[0];
+            popup_024ed45fca6849acf07b91eb8c1de1ab.setContent(html_e815d86b4fd5f1b0d0c585dc1884aeab);
+        
+
+        marker_be1795697085417caacff0339daa69bd.bindPopup(popup_024ed45fca6849acf07b91eb8c1de1ab)
+        ;
+
+        
+    
+    
+            var marker_fe04c95eed09729fd0aaf2479172b2d6 = L.marker(
+                [52.3667, 4.9],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_b6527d8969fd62bb2eb9b537a1eb0738 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fe04c95eed09729fd0aaf2479172b2d6.setIcon(icon_b6527d8969fd62bb2eb9b537a1eb0738);
+        
+    
+        var popup_415ea1b8b9dcacf5c4e14c046db61a32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57737b12455f81ec0602fe41115c2d6b = $(`<div id="html_57737b12455f81ec0602fe41115c2d6b" style="width: 100.0%; height: 100.0%;"><b>Amsterdam</b><br><a href="https://en.wikipedia.org/wiki/Amsterdam" target="_blank">Amsterdam</a></div>`)[0];
+            popup_415ea1b8b9dcacf5c4e14c046db61a32.setContent(html_57737b12455f81ec0602fe41115c2d6b);
+        
+
+        marker_fe04c95eed09729fd0aaf2479172b2d6.bindPopup(popup_415ea1b8b9dcacf5c4e14c046db61a32)
+        ;
+
+        
+    
+    
+            var marker_38415226fd3598f2fd2dc43307fab9a4 = L.marker(
+                [40.9, 12.9667],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_acf80172232597cf6e5a60489e04f0e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_38415226fd3598f2fd2dc43307fab9a4.setIcon(icon_acf80172232597cf6e5a60489e04f0e0);
+        
+    
+        var popup_15defcd55bdc23e58940736322c392fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d15157269d8ceb38bb0b26ce25b0e8c = $(`<div id="html_0d15157269d8ceb38bb0b26ce25b0e8c" style="width: 100.0%; height: 100.0%;"><b>Andra Ponza</b><br><a href="https://en.wikipedia.org/wiki/Ponza" target="_blank">Ponza</a></div>`)[0];
+            popup_15defcd55bdc23e58940736322c392fb.setContent(html_0d15157269d8ceb38bb0b26ce25b0e8c);
+        
+
+        marker_38415226fd3598f2fd2dc43307fab9a4.bindPopup(popup_15defcd55bdc23e58940736322c392fb)
+        ;
+
+        
+    
+    
+            var marker_89d7823e67fca6a1960a31d14369be80 = L.marker(
+                [-12.5, 18.5],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_1c0f90184b22e480006e87f94651aefb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_89d7823e67fca6a1960a31d14369be80.setIcon(icon_1c0f90184b22e480006e87f94651aefb);
+        
+    
+        var popup_8ddc37dd881f09cdb2d771b63d33bd18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a5917e241564d1ec4360e5c4633fc5e = $(`<div id="html_2a5917e241564d1ec4360e5c4633fc5e" style="width: 100.0%; height: 100.0%;"><b>Angola</b><br><a href="https://en.wikipedia.org/wiki/Angola" target="_blank">Angola</a></div>`)[0];
+            popup_8ddc37dd881f09cdb2d771b63d33bd18.setContent(html_2a5917e241564d1ec4360e5c4633fc5e);
+        
+
+        marker_89d7823e67fca6a1960a31d14369be80.bindPopup(popup_8ddc37dd881f09cdb2d771b63d33bd18)
+        ;
+
+        
+    
+    
+            var marker_f8b1976d8c1cd9358c5419a87b00d5e5 = L.marker(
+                [17.05, -61.8],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_b5b5418c4c9f8dfe6c2684675bb81206 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8b1976d8c1cd9358c5419a87b00d5e5.setIcon(icon_b5b5418c4c9f8dfe6c2684675bb81206);
+        
+    
+        var popup_e8a487b2d49af7c00790bda1cc67cf56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccb960aa7d653617482d08400dc4d7a0 = $(`<div id="html_ccb960aa7d653617482d08400dc4d7a0" style="width: 100.0%; height: 100.0%;"><b>?Antiego</b><br><a href="https://en.wikipedia.org/wiki/Antigua" target="_blank">Antigua</a></div>`)[0];
+            popup_e8a487b2d49af7c00790bda1cc67cf56.setContent(html_ccb960aa7d653617482d08400dc4d7a0);
+        
+
+        marker_f8b1976d8c1cd9358c5419a87b00d5e5.bindPopup(popup_e8a487b2d49af7c00790bda1cc67cf56)
+        ;
+
+        
+    
+    
+            var marker_7612ad2f24c0be0274b63f5466f7b3d3 = L.marker(
+                [51.2167, 4.4],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_65432c00ee1a1cf9aff3390562daeb4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7612ad2f24c0be0274b63f5466f7b3d3.setIcon(icon_65432c00ee1a1cf9aff3390562daeb4a);
+        
+    
+        var popup_195f0bfb12a0158b599a4232b6f17389 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dd37e8e4a242152b97fc38d76185721 = $(`<div id="html_6dd37e8e4a242152b97fc38d76185721" style="width: 100.0%; height: 100.0%;"><b>Antwerp</b><br><a href="https://en.wikipedia.org/wiki/Antwerp" target="_blank">Antwerp</a></div>`)[0];
+            popup_195f0bfb12a0158b599a4232b6f17389.setContent(html_6dd37e8e4a242152b97fc38d76185721);
+        
+
+        marker_7612ad2f24c0be0274b63f5466f7b3d3.bindPopup(popup_195f0bfb12a0158b599a4232b6f17389)
+        ;
+
+        
+    
+    
+            var marker_7f701435e9e8f0c09e054326376b0bfc = L.marker(
+                [64.5333, 40.5333],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_633beaa182a547365f8aa02dcced3d93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f701435e9e8f0c09e054326376b0bfc.setIcon(icon_633beaa182a547365f8aa02dcced3d93);
+        
+    
+        var popup_fc5b95fc1dcf0de07dc2104543f06706 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_470d08c7fe09b8b9c9e2985b325aed70 = $(`<div id="html_470d08c7fe09b8b9c9e2985b325aed70" style="width: 100.0%; height: 100.0%;"><b>Archangell</b><br><a href="https://en.wikipedia.org/wiki/Arkhangelsk" target="_blank">Arkhangelsk</a></div>`)[0];
+            popup_fc5b95fc1dcf0de07dc2104543f06706.setContent(html_470d08c7fe09b8b9c9e2985b325aed70);
+        
+
+        marker_7f701435e9e8f0c09e054326376b0bfc.bindPopup(popup_fc5b95fc1dcf0de07dc2104543f06706)
+        ;
+
+        
+    
+    
+            var marker_068e6e0bf04451c5cc42924b3c622d79 = L.marker(
+                [64.5333, 40.5333],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_dd84145a94f2a41eff769f23e22c4b1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_068e6e0bf04451c5cc42924b3c622d79.setIcon(icon_dd84145a94f2a41eff769f23e22c4b1c);
+        
+    
+        var popup_a3eaaa63fb2be69767aea2f8d9bbb857 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c0c51b3095530e04f358a9b20f1b1b4 = $(`<div id="html_7c0c51b3095530e04f358a9b20f1b1b4" style="width: 100.0%; height: 100.0%;"><b>Archangels</b><br><a href="https://en.wikipedia.org/wiki/Arkhangelsk" target="_blank">Arkhangelsk</a></div>`)[0];
+            popup_a3eaaa63fb2be69767aea2f8d9bbb857.setContent(html_7c0c51b3095530e04f358a9b20f1b1b4);
+        
+
+        marker_068e6e0bf04451c5cc42924b3c622d79.bindPopup(popup_a3eaaa63fb2be69767aea2f8d9bbb857)
+        ;
+
+        
+    
+    
+            var marker_e1cbb12f49fee3230349a3f9002683e8 = L.marker(
+                [51.5161, -0.0956],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_5ea4938b9efb7720c1b658bd71ba9d69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e1cbb12f49fee3230349a3f9002683e8.setIcon(icon_5ea4938b9efb7720c1b658bd71ba9d69);
+        
+    
+        var popup_c39911a23b06f182960a1e782f8a2302 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36405149dfc1b610a64641f82e2bd4c1 = $(`<div id="html_36405149dfc1b610a64641f82e2bd4c1" style="width: 100.0%; height: 100.0%;"><b>Austin Friars</b><br><a href="https://en.wikipedia.org/wiki/Austin_Friars,_London" target="_blank">Austin Friars, London</a></div>`)[0];
+            popup_c39911a23b06f182960a1e782f8a2302.setContent(html_36405149dfc1b610a64641f82e2bd4c1);
+        
+
+        marker_e1cbb12f49fee3230349a3f9002683e8.bindPopup(popup_c39911a23b06f182960a1e782f8a2302)
+        ;
+
+        
+    
+    
+            var marker_6a548b60316410981579b0ddc67ee220 = L.marker(
+                [38.8833, -6.9667],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_90ca153c071a3f0c075a175c423696f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6a548b60316410981579b0ddc67ee220.setIcon(icon_90ca153c071a3f0c075a175c423696f2);
+        
+    
+        var popup_b89d1618556213dee7282b12b2e58289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcadd728155d156cacbe0e7a41f8377d = $(`<div id="html_fcadd728155d156cacbe0e7a41f8377d" style="width: 100.0%; height: 100.0%;"><b>Badajos</b><br><a href="https://en.wikipedia.org/wiki/Badajoz" target="_blank">Badajoz</a></div>`)[0];
+            popup_b89d1618556213dee7282b12b2e58289.setContent(html_fcadd728155d156cacbe0e7a41f8377d);
+        
+
+        marker_6a548b60316410981579b0ddc67ee220.bindPopup(popup_b89d1618556213dee7282b12b2e58289)
+        ;
+
+        
+    
+    
+            var marker_3c403c48291d9077394148cd8e6ee9e0 = L.marker(
+                [51.5078, -0.0981],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_8dd28ec5f6596abe98532c572d2ac34b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c403c48291d9077394148cd8e6ee9e0.setIcon(icon_8dd28ec5f6596abe98532c572d2ac34b);
+        
+    
+        var popup_bceb954ae630d87236a636fef715f34a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d7b1dfd453db1e2a8a61daf43f1c721 = $(`<div id="html_7d7b1dfd453db1e2a8a61daf43f1c721" style="width: 100.0%; height: 100.0%;"><b>Banck side</b><br><a href="https://en.wikipedia.org/wiki/Bankside" target="_blank">Bankside</a></div>`)[0];
+            popup_bceb954ae630d87236a636fef715f34a.setContent(html_7d7b1dfd453db1e2a8a61daf43f1c721);
+        
+
+        marker_3c403c48291d9077394148cd8e6ee9e0.bindPopup(popup_bceb954ae630d87236a636fef715f34a)
+        ;
+
+        
+    
+    
+            var marker_f76d9bf0a0770ec526a57bd131d4271d = L.marker(
+                [-6.1333, 106.15],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_2712ae99fcf81fcda0ebebdd99d93ff6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f76d9bf0a0770ec526a57bd131d4271d.setIcon(icon_2712ae99fcf81fcda0ebebdd99d93ff6);
+        
+    
+        var popup_bf3be1d19ac7ae32bc3c523ca58c1d1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_431347e8ec2b81d13046f36121c7181f = $(`<div id="html_431347e8ec2b81d13046f36121c7181f" style="width: 100.0%; height: 100.0%;"><b>Bantam</b><br><a href="https://en.wikipedia.org/wiki/Bantam_(Indonesia)" target="_blank">Bantam (Indonesia)</a></div>`)[0];
+            popup_bf3be1d19ac7ae32bc3c523ca58c1d1c.setContent(html_431347e8ec2b81d13046f36121c7181f);
+        
+
+        marker_f76d9bf0a0770ec526a57bd131d4271d.bindPopup(popup_bf3be1d19ac7ae32bc3c523ca58c1d1c)
+        ;
+
+        
+    
+    
+            var marker_1238ce095e3f34711d7ab2c33557d0d3 = L.marker(
+                [-6.1333, 106.15],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_e9416b50aee8f0a81e78f87ac4303f6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1238ce095e3f34711d7ab2c33557d0d3.setIcon(icon_e9416b50aee8f0a81e78f87ac4303f6d);
+        
+    
+        var popup_f102b4e40664e7a4c17e372173ae30a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49e16b2739d104b6d812594ace4841eb = $(`<div id="html_49e16b2739d104b6d812594ace4841eb" style="width: 100.0%; height: 100.0%;"><b>Bantam Roade</b><br><a href="https://en.wikipedia.org/wiki/Bantam_(Indonesia)" target="_blank">Bantam (Indonesia)</a></div>`)[0];
+            popup_f102b4e40664e7a4c17e372173ae30a9.setContent(html_49e16b2739d104b6d812594ace4841eb);
+        
+
+        marker_1238ce095e3f34711d7ab2c33557d0d3.bindPopup(popup_f102b4e40664e7a4c17e372173ae30a9)
+        ;
+
+        
+    
+    
+            var marker_14bc880a33f4890b606bbfc9a6e1502c = L.marker(
+                [50.2667, -3.8667],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_64a6ce21363b33ee46a7b47e9c28b3b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_14bc880a33f4890b606bbfc9a6e1502c.setIcon(icon_64a6ce21363b33ee46a7b47e9c28b3b7);
+        
+    
+        var popup_65cff7c12085d041771e3d52f96d6388 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b82063a50688fb9cd3cd5fbb848dca1 = $(`<div id="html_2b82063a50688fb9cd3cd5fbb848dca1" style="width: 100.0%; height: 100.0%;"><b>Bantham</b><br><a href="https://en.wikipedia.org/wiki/Bantham" target="_blank">Bantham</a></div>`)[0];
+            popup_65cff7c12085d041771e3d52f96d6388.setContent(html_2b82063a50688fb9cd3cd5fbb848dca1);
+        
+
+        marker_14bc880a33f4890b606bbfc9a6e1502c.bindPopup(popup_65cff7c12085d041771e3d52f96d6388)
+        ;
+
+        
+    
+    
+            var marker_8244c0563f7955ecf6d933a66ba7ed18 = L.marker(
+                [13.1833, -59.5333],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_4ece2edd73d89e946d334aeb1150ce85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8244c0563f7955ecf6d933a66ba7ed18.setIcon(icon_4ece2edd73d89e946d334aeb1150ce85);
+        
+    
+        var popup_0eabb8956324cb3e6ed45e063beb1028 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e628bafd366bfd4e76720bc858b22f10 = $(`<div id="html_e628bafd366bfd4e76720bc858b22f10" style="width: 100.0%; height: 100.0%;"><b>Barbadas</b><br><a href="https://en.wikipedia.org/wiki/Barbados" target="_blank">Barbados</a></div>`)[0];
+            popup_0eabb8956324cb3e6ed45e063beb1028.setContent(html_e628bafd366bfd4e76720bc858b22f10);
+        
+
+        marker_8244c0563f7955ecf6d933a66ba7ed18.bindPopup(popup_0eabb8956324cb3e6ed45e063beb1028)
+        ;
+
+        
+    
+    
+            var marker_848b36923de07c6615320535d2b65e34 = L.marker(
+                [13.1833, -59.5333],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_212c7f8a72d818425ccac812722284c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_848b36923de07c6615320535d2b65e34.setIcon(icon_212c7f8a72d818425ccac812722284c5);
+        
+    
+        var popup_5274379136f6cdc1586a33341a00d6b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c035d2c9008c6f4c75328f803c9a946d = $(`<div id="html_c035d2c9008c6f4c75328f803c9a946d" style="width: 100.0%; height: 100.0%;"><b>Barbadoas</b><br><a href="https://en.wikipedia.org/wiki/Barbados" target="_blank">Barbados</a></div>`)[0];
+            popup_5274379136f6cdc1586a33341a00d6b0.setContent(html_c035d2c9008c6f4c75328f803c9a946d);
+        
+
+        marker_848b36923de07c6615320535d2b65e34.bindPopup(popup_5274379136f6cdc1586a33341a00d6b0)
+        ;
+
+        
+    
+    
+            var marker_cb092e7addc77060df28552782fa8c0f = L.marker(
+                [13.1833, -59.5333],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_111f097f9c8fbc5033e30d608987b4a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb092e7addc77060df28552782fa8c0f.setIcon(icon_111f097f9c8fbc5033e30d608987b4a6);
+        
+    
+        var popup_64ada274023fb29e7c3c5ffd7057a5e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_378efa8857797ff186bb1f1c938c91e4 = $(`<div id="html_378efa8857797ff186bb1f1c938c91e4" style="width: 100.0%; height: 100.0%;"><b>Barbados</b><br><a href="https://en.wikipedia.org/wiki/Barbados" target="_blank">Barbados</a></div>`)[0];
+            popup_64ada274023fb29e7c3c5ffd7057a5e2.setContent(html_378efa8857797ff186bb1f1c938c91e4);
+        
+
+        marker_cb092e7addc77060df28552782fa8c0f.bindPopup(popup_64ada274023fb29e7c3c5ffd7057a5e2)
+        ;
+
+        
+    
+    
+            var marker_ffa9fbf8fcffd20c11bcf47c59940238 = L.marker(
+                [13.1833, -59.5333],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_66362f09888bd89a6262134bfd0a5844 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffa9fbf8fcffd20c11bcf47c59940238.setIcon(icon_66362f09888bd89a6262134bfd0a5844);
+        
+    
+        var popup_027c5f7c8a8a8600da3d615aaa248649 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dfeffec250317ae2aed3825b0ecb0ae = $(`<div id="html_6dfeffec250317ae2aed3825b0ecb0ae" style="width: 100.0%; height: 100.0%;"><b>Barbadoes</b><br><a href="https://en.wikipedia.org/wiki/Barbados" target="_blank">Barbados</a></div>`)[0];
+            popup_027c5f7c8a8a8600da3d615aaa248649.setContent(html_6dfeffec250317ae2aed3825b0ecb0ae);
+        
+
+        marker_ffa9fbf8fcffd20c11bcf47c59940238.bindPopup(popup_027c5f7c8a8a8600da3d615aaa248649)
+        ;
+
+        
+    
+    
+            var marker_f3f828d4db73c798eb6c7ce603728f89 = L.marker(
+                [35.0, -3.0],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_28cb54095a8ff2ca2785a9ab55434520 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f3f828d4db73c798eb6c7ce603728f89.setIcon(icon_28cb54095a8ff2ca2785a9ab55434520);
+        
+    
+        var popup_3812d2d53385d1850e013d2654412748 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73a49ae317b706a677fd58fb07c60d6c = $(`<div id="html_73a49ae317b706a677fd58fb07c60d6c" style="width: 100.0%; height: 100.0%;"><b>Barbery</b><br><a href="https://en.wikipedia.org/wiki/Barbary_Coast" target="_blank">Barbary Coast</a></div>`)[0];
+            popup_3812d2d53385d1850e013d2654412748.setContent(html_73a49ae317b706a677fd58fb07c60d6c);
+        
+
+        marker_f3f828d4db73c798eb6c7ce603728f89.bindPopup(popup_3812d2d53385d1850e013d2654412748)
+        ;
+
+        
+    
+    
+            var marker_0dc0e24eed0f0962ae929fcac67d043d = L.marker(
+                [32.3078, -64.7505],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_7308cc6dcb364e841504dbe7a8ee2945 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0dc0e24eed0f0962ae929fcac67d043d.setIcon(icon_7308cc6dcb364e841504dbe7a8ee2945);
+        
+    
+        var popup_5f716f41eee6dcfa1ca89e904fd5cfb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae16e120331d8c2993bf5af5cc46ba4a = $(`<div id="html_ae16e120331d8c2993bf5af5cc46ba4a" style="width: 100.0%; height: 100.0%;"><b>Bermudas</b><br><a href="https://en.wikipedia.org/wiki/Bermuda" target="_blank">Bermuda</a></div>`)[0];
+            popup_5f716f41eee6dcfa1ca89e904fd5cfb7.setContent(html_ae16e120331d8c2993bf5af5cc46ba4a);
+        
+
+        marker_0dc0e24eed0f0962ae929fcac67d043d.bindPopup(popup_5f716f41eee6dcfa1ca89e904fd5cfb7)
+        ;
+
+        
+    
+    
+            var marker_b76586e405a6ade6829cc497a0165afa = L.marker(
+                [35.0, -3.0],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_ed0eb289ce031c13652dfcfdbc7fffd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b76586e405a6ade6829cc497a0165afa.setIcon(icon_ed0eb289ce031c13652dfcfdbc7fffd0);
+        
+    
+        var popup_a42f84ce7df76d8b960a0269e007d243 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cab0e7dab788e4ab64ccf9a75e7e5599 = $(`<div id="html_cab0e7dab788e4ab64ccf9a75e7e5599" style="width: 100.0%; height: 100.0%;"><b>Barbary</b><br><a href="https://en.wikipedia.org/wiki/Barbary_Coast" target="_blank">Barbary Coast</a></div>`)[0];
+            popup_a42f84ce7df76d8b960a0269e007d243.setContent(html_cab0e7dab788e4ab64ccf9a75e7e5599);
+        
+
+        marker_b76586e405a6ade6829cc497a0165afa.bindPopup(popup_a42f84ce7df76d8b960a0269e007d243)
+        ;
+
+        
+    
+    
+            var marker_a6102400515419b59d5592c8d912d1b0 = L.marker(
+                [51.5378, 0.0769],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_794f91c9fa95e4379950f931438d5b5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6102400515419b59d5592c8d912d1b0.setIcon(icon_794f91c9fa95e4379950f931438d5b5d);
+        
+    
+        var popup_f08e4ecb4436ce8af3e53d568a769d07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84c99a523a5d1ea74c7b0578ed5ddef3 = $(`<div id="html_84c99a523a5d1ea74c7b0578ed5ddef3" style="width: 100.0%; height: 100.0%;"><b>Barking</b><br><a href="https://en.wikipedia.org/wiki/Barking,_London" target="_blank">Barking, London</a></div>`)[0];
+            popup_f08e4ecb4436ce8af3e53d568a769d07.setContent(html_84c99a523a5d1ea74c7b0578ed5ddef3);
+        
+
+        marker_a6102400515419b59d5592c8d912d1b0.bindPopup(popup_f08e4ecb4436ce8af3e53d568a769d07)
+        ;
+
+        
+    
+    
+            var marker_77c09619ca9cc4f2137c49e6fdc64de9 = L.marker(
+                [51.0831, -4.0636],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_202deca57aab46cb7d1e2fabf5d6c3f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_77c09619ca9cc4f2137c49e6fdc64de9.setIcon(icon_202deca57aab46cb7d1e2fabf5d6c3f4);
+        
+    
+        var popup_ef0ed4165adefd97bfdcef2b747f4947 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_309d98aacc8ce620e5dec46545262582 = $(`<div id="html_309d98aacc8ce620e5dec46545262582" style="width: 100.0%; height: 100.0%;"><b>Barnstable</b><br><a href="https://en.wikipedia.org/wiki/Barnstaple" target="_blank">Barnstaple</a></div>`)[0];
+            popup_ef0ed4165adefd97bfdcef2b747f4947.setContent(html_309d98aacc8ce620e5dec46545262582);
+        
+
+        marker_77c09619ca9cc4f2137c49e6fdc64de9.bindPopup(popup_ef0ed4165adefd97bfdcef2b747f4947)
+        ;
+
+        
+    
+    
+            var marker_a221f84b4818140bdc5fa573b8144073 = L.marker(
+                [-6.2088, 106.8456],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_cce5881a93fc1263c59cc44aba3bfbf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a221f84b4818140bdc5fa573b8144073.setIcon(icon_cce5881a93fc1263c59cc44aba3bfbf5);
+        
+    
+        var popup_f26b00cafe0792d370c23209fee5c8f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ccaaa55519c856259d3044ededddfb8 = $(`<div id="html_1ccaaa55519c856259d3044ededddfb8" style="width: 100.0%; height: 100.0%;"><b>Batavia</b><br><a href="https://en.wikipedia.org/wiki/Jakarta" target="_blank">Jakarta</a></div>`)[0];
+            popup_f26b00cafe0792d370c23209fee5c8f9.setContent(html_1ccaaa55519c856259d3044ededddfb8);
+        
+
+        marker_a221f84b4818140bdc5fa573b8144073.bindPopup(popup_f26b00cafe0792d370c23209fee5c8f9)
+        ;
+
+        
+    
+    
+            var marker_d3a13712e564a11591fa82db2611f6b4 = L.marker(
+                [-6.2088, 106.8456],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_ff6207bbf7f82f4707690511352113a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d3a13712e564a11591fa82db2611f6b4.setIcon(icon_ff6207bbf7f82f4707690511352113a4);
+        
+    
+        var popup_c9476f4345d1737e0906bbaa2fe9827e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9309a541a04519c4e63bf469bc1d9cb2 = $(`<div id="html_9309a541a04519c4e63bf469bc1d9cb2" style="width: 100.0%; height: 100.0%;"><b>Battavia</b><br><a href="https://en.wikipedia.org/wiki/Jakarta" target="_blank">Jakarta</a></div>`)[0];
+            popup_c9476f4345d1737e0906bbaa2fe9827e.setContent(html_9309a541a04519c4e63bf469bc1d9cb2);
+        
+
+        marker_d3a13712e564a11591fa82db2611f6b4.bindPopup(popup_c9476f4345d1737e0906bbaa2fe9827e)
+        ;
+
+        
+    
+    
+            var marker_182c7e1de7a64ade3b0b3af1cafaf91b = L.marker(
+                [32.3078, -64.7505],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_38231fdf90d34cecf2945b435cf2817c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_182c7e1de7a64ade3b0b3af1cafaf91b.setIcon(icon_38231fdf90d34cecf2945b435cf2817c);
+        
+    
+        var popup_1d3192e26f37e222566075ee66b3066e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15ba541e2b6df210a80160781f60e356 = $(`<div id="html_15ba541e2b6df210a80160781f60e356" style="width: 100.0%; height: 100.0%;"><b>Bermudas</b><br><a href="https://en.wikipedia.org/wiki/Bermuda" target="_blank">Bermuda</a></div>`)[0];
+            popup_1d3192e26f37e222566075ee66b3066e.setContent(html_15ba541e2b6df210a80160781f60e356);
+        
+
+        marker_182c7e1de7a64ade3b0b3af1cafaf91b.bindPopup(popup_1d3192e26f37e222566075ee66b3066e)
+        ;
+
+        
+    
+    
+            var marker_999edc38436c1e1f152ad4b5ea07e5b8 = L.marker(
+                [51.0153, -4.2093],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_1448ab01f76b7428a27ce109c04f05b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_999edc38436c1e1f152ad4b5ea07e5b8.setIcon(icon_1448ab01f76b7428a27ce109c04f05b7);
+        
+    
+        var popup_ec668b7df6f5c864b802aac6dfc50e8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_287cd9c3c843a08174ad60735cdd77e8 = $(`<div id="html_287cd9c3c843a08174ad60735cdd77e8" style="width: 100.0%; height: 100.0%;"><b>Biddeford</b><br><a href="https://en.wikipedia.org/wiki/Bideford" target="_blank">Bideford</a></div>`)[0];
+            popup_ec668b7df6f5c864b802aac6dfc50e8e.setContent(html_287cd9c3c843a08174ad60735cdd77e8);
+        
+
+        marker_999edc38436c1e1f152ad4b5ea07e5b8.bindPopup(popup_ec668b7df6f5c864b802aac6dfc50e8e)
+        ;
+
+        
+    
+    
+            var marker_00bc64c3536504738e1ffeecef6694ff = L.marker(
+                [43.263, -2.93499],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_f0897f6f255dcab3e4f996b98e54596c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00bc64c3536504738e1ffeecef6694ff.setIcon(icon_f0897f6f255dcab3e4f996b98e54596c);
+        
+    
+        var popup_b8d1fc976ea523d98b3a43c62ef0f004 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95667f782b4884e06a9023bcad36f948 = $(`<div id="html_95667f782b4884e06a9023bcad36f948" style="width: 100.0%; height: 100.0%;"><b>Bilbao</b><br><a href="https://en.wikipedia.org/wiki/Bilbao" target="_blank">Bilbao</a></div>`)[0];
+            popup_b8d1fc976ea523d98b3a43c62ef0f004.setContent(html_95667f782b4884e06a9023bcad36f948);
+        
+
+        marker_00bc64c3536504738e1ffeecef6694ff.bindPopup(popup_b8d1fc976ea523d98b3a43c62ef0f004)
+        ;
+
+        
+    
+    
+            var marker_70ef21d5b65144db6f34b9bf315543cb = L.marker(
+                [43.263, -2.93499],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_9db8fabe3e638a610ecf95363c8feac9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_70ef21d5b65144db6f34b9bf315543cb.setIcon(icon_9db8fabe3e638a610ecf95363c8feac9);
+        
+    
+        var popup_b1b1d09d388a2906be46f2a3b8d21ef5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2f7ff5874b3d373edcd686ff6bce247 = $(`<div id="html_b2f7ff5874b3d373edcd686ff6bce247" style="width: 100.0%; height: 100.0%;"><b>Bilboa</b><br><a href="https://en.wikipedia.org/wiki/Bilbao" target="_blank">Bilbao</a></div>`)[0];
+            popup_b1b1d09d388a2906be46f2a3b8d21ef5.setContent(html_b2f7ff5874b3d373edcd686ff6bce247);
+        
+
+        marker_70ef21d5b65144db6f34b9bf315543cb.bindPopup(popup_b1b1d09d388a2906be46f2a3b8d21ef5)
+        ;
+
+        
+    
+    
+            var marker_387874ec5d96315ab990a0d963b8c631 = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_5fdeb6cd65a14b518c338afdf3a1af0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_387874ec5d96315ab990a0d963b8c631.setIcon(icon_5fdeb6cd65a14b518c338afdf3a1af0a);
+        
+    
+        var popup_d96e78e2fd800640bf6029503ec864e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd5598f5e75b9cf47944908c341a420e = $(`<div id="html_dd5598f5e75b9cf47944908c341a420e" style="width: 100.0%; height: 100.0%;"><b>Binney</b></div>`)[0];
+            popup_d96e78e2fd800640bf6029503ec864e5.setContent(html_dd5598f5e75b9cf47944908c341a420e);
+        
+
+        marker_387874ec5d96315ab990a0d963b8c631.bindPopup(popup_d96e78e2fd800640bf6029503ec864e5)
+        ;
+
+        
+    
+    
+            var marker_8b6b71fd7b0fbd23572ceb2dff14611b = L.marker(
+                [51.5128, -0.0858],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_e9d38126f9c7e7b267e6c0d24b960176 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b6b71fd7b0fbd23572ceb2dff14611b.setIcon(icon_e9d38126f9c7e7b267e6c0d24b960176);
+        
+    
+        var popup_e889a0c0c9a09de0ce408db35f0ed281 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c1e4377f282d66eb41b03013b173e49 = $(`<div id="html_4c1e4377f282d66eb41b03013b173e49" style="width: 100.0%; height: 100.0%;"><b>Birchin Lane</b></div>`)[0];
+            popup_e889a0c0c9a09de0ce408db35f0ed281.setContent(html_4c1e4377f282d66eb41b03013b173e49);
+        
+
+        marker_8b6b71fd7b0fbd23572ceb2dff14611b.bindPopup(popup_e889a0c0c9a09de0ce408db35f0ed281)
+        ;
+
+        
+    
+    
+            var marker_9217f2421cc1429913399fc3ab58ced8 = L.marker(
+                [43.0, -2.0],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_f6451253ff74ee626c197e33920012f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9217f2421cc1429913399fc3ab58ced8.setIcon(icon_f6451253ff74ee626c197e33920012f5);
+        
+    
+        var popup_9027dc0b20a8fff777fabfc20ad12f9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d36ba929d8a31ead3ce06cb2cd879ce8 = $(`<div id="html_d36ba929d8a31ead3ce06cb2cd879ce8" style="width: 100.0%; height: 100.0%;"><b>Biscay</b><br><a href="https://en.wikipedia.org/wiki/Bay_of_Biscay" target="_blank">Bay of Biscay</a></div>`)[0];
+            popup_9027dc0b20a8fff777fabfc20ad12f9c.setContent(html_d36ba929d8a31ead3ce06cb2cd879ce8);
+        
+
+        marker_9217f2421cc1429913399fc3ab58ced8.bindPopup(popup_9027dc0b20a8fff777fabfc20ad12f9c)
+        ;
+
+        
+    
+    
+            var marker_765ea905d7d1bd9f498acc9527b0e021 = L.marker(
+                [51.5176, -0.0809],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_4c695ff4c169013ce34b9c9c7890c0bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_765ea905d7d1bd9f498acc9527b0e021.setIcon(icon_4c695ff4c169013ce34b9c9c7890c0bb);
+        
+    
+        var popup_9c07de333273182365ecaffd34164624 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3efcf9e4d99d430c44ba31f8b5fff6ed = $(`<div id="html_3efcf9e4d99d430c44ba31f8b5fff6ed" style="width: 100.0%; height: 100.0%;"><b>Bishopsgate Street</b><br><a href="https://en.wikipedia.org/wiki/Bishopsgate" target="_blank">Bishopsgate</a></div>`)[0];
+            popup_9c07de333273182365ecaffd34164624.setContent(html_3efcf9e4d99d430c44ba31f8b5fff6ed);
+        
+
+        marker_765ea905d7d1bd9f498acc9527b0e021.bindPopup(popup_9c07de333273182365ecaffd34164624)
+        ;
+
+        
+    
+    
+            var marker_3a18d32bcd701cc79dce9b5d6d19cb9a = L.marker(
+                [51.5074, -0.0264],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_0a710e5a9a108870b9af487e7c4b80ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a18d32bcd701cc79dce9b5d6d19cb9a.setIcon(icon_0a710e5a9a108870b9af487e7c4b80ee);
+        
+    
+        var popup_c21138084f78750665924eddc1c57aed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd8c441e3531489ce9058b854fb7cf33 = $(`<div id="html_fd8c441e3531489ce9058b854fb7cf33" style="width: 100.0%; height: 100.0%;"><b>Blackwall</b><br><a href="https://en.wikipedia.org/wiki/Blackwall,_London" target="_blank">Blackwall, London</a></div>`)[0];
+            popup_c21138084f78750665924eddc1c57aed.setContent(html_fd8c441e3531489ce9058b854fb7cf33);
+        
+
+        marker_3a18d32bcd701cc79dce9b5d6d19cb9a.bindPopup(popup_c21138084f78750665924eddc1c57aed)
+        ;
+
+        
+    
+    
+            var marker_372d643fdff6d0ecaf89b017c7ba36df = L.marker(
+                [42.3601, -71.0589],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_79f3a2a92b98f4d96eabb0e14c7cfd02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_372d643fdff6d0ecaf89b017c7ba36df.setIcon(icon_79f3a2a92b98f4d96eabb0e14c7cfd02);
+        
+    
+        var popup_ef3e0063af45ae5f97e0a91e1cce7222 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7138bb587c85ebce61b215781520736 = $(`<div id="html_d7138bb587c85ebce61b215781520736" style="width: 100.0%; height: 100.0%;"><b>Boston</b><br><a href="https://en.wikipedia.org/wiki/Boston" target="_blank">Boston</a></div>`)[0];
+            popup_ef3e0063af45ae5f97e0a91e1cce7222.setContent(html_d7138bb587c85ebce61b215781520736);
+        
+
+        marker_372d643fdff6d0ecaf89b017c7ba36df.bindPopup(popup_ef3e0063af45ae5f97e0a91e1cce7222)
+        ;
+
+        
+    
+    
+            var marker_71a82375a32f03bcd4d723cd744caf46 = L.marker(
+                [51.4416, 5.4697],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_e17b3ab8d91068f8472f49763c061df9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_71a82375a32f03bcd4d723cd744caf46.setIcon(icon_e17b3ab8d91068f8472f49763c061df9);
+        
+    
+        var popup_6090704d8781828ecc24508e5e268ebe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a44371d4bf89c19341cb586e12e0539e = $(`<div id="html_a44371d4bf89c19341cb586e12e0539e" style="width: 100.0%; height: 100.0%;"><b>Brabant</b><br><a href="https://en.wikipedia.org/wiki/Brabant" target="_blank">Brabant</a></div>`)[0];
+            popup_6090704d8781828ecc24508e5e268ebe.setContent(html_a44371d4bf89c19341cb586e12e0539e);
+        
+
+        marker_71a82375a32f03bcd4d723cd744caf46.bindPopup(popup_6090704d8781828ecc24508e5e268ebe)
+        ;
+
+        
+    
+    
+            var marker_5c0db96eaae3844c491da7659d797951 = L.marker(
+                [51.2093, 3.2247],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_cbff512723caec0cbed3dc813baf43bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c0db96eaae3844c491da7659d797951.setIcon(icon_cbff512723caec0cbed3dc813baf43bd);
+        
+    
+        var popup_5078171dcd05aa26240a6b4ad87ae4d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_687e4d804c4855d9eb626aeb7931e0c7 = $(`<div id="html_687e4d804c4855d9eb626aeb7931e0c7" style="width: 100.0%; height: 100.0%;"><b>Braseele</b><br><a href="https://en.wikipedia.org/wiki/Bruges" target="_blank">Bruges</a></div>`)[0];
+            popup_5078171dcd05aa26240a6b4ad87ae4d8.setContent(html_687e4d804c4855d9eb626aeb7931e0c7);
+        
+
+        marker_5c0db96eaae3844c491da7659d797951.bindPopup(popup_5078171dcd05aa26240a6b4ad87ae4d8)
+        ;
+
+        
+    
+    
+            var marker_c732b38537a6a7cd108c935552c202ac = L.marker(
+                [51.2093, 3.2247],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_a5eda97c1df4f8e915451e9bd23f5675 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c732b38537a6a7cd108c935552c202ac.setIcon(icon_a5eda97c1df4f8e915451e9bd23f5675);
+        
+    
+        var popup_5d0b1ef1ff99eeab5f864f8b58f45a36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8c9b130b733de344bfdc241e1e557a9 = $(`<div id="html_c8c9b130b733de344bfdc241e1e557a9" style="width: 100.0%; height: 100.0%;"><b>The Brazeele</b><br><a href="https://en.wikipedia.org/wiki/Bruges" target="_blank">Bruges</a></div>`)[0];
+            popup_5d0b1ef1ff99eeab5f864f8b58f45a36.setContent(html_c8c9b130b733de344bfdc241e1e557a9);
+        
+
+        marker_c732b38537a6a7cd108c935552c202ac.bindPopup(popup_5d0b1ef1ff99eeab5f864f8b58f45a36)
+        ;
+
+        
+    
+    
+            var marker_6f4e420ec836d6de08dbbf92bbe093c5 = L.marker(
+                [-14.235, -51.9253],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_ebc2e012e618f04df6f8cdf6a1c611d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6f4e420ec836d6de08dbbf92bbe093c5.setIcon(icon_ebc2e012e618f04df6f8cdf6a1c611d5);
+        
+    
+        var popup_ec0de1802dbd17ae04a4a477b8bf157f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8067f8ddea52b39b0844b8f5023d982 = $(`<div id="html_c8067f8ddea52b39b0844b8f5023d982" style="width: 100.0%; height: 100.0%;"><b>Brazil</b><br><a href="https://en.wikipedia.org/wiki/Brazil" target="_blank">Brazil</a></div>`)[0];
+            popup_ec0de1802dbd17ae04a4a477b8bf157f.setContent(html_c8067f8ddea52b39b0844b8f5023d982);
+        
+
+        marker_6f4e420ec836d6de08dbbf92bbe093c5.bindPopup(popup_ec0de1802dbd17ae04a4a477b8bf157f)
+        ;
+
+        
+    
+    
+            var marker_492755a85184db7dc1f8c20115662e4c = L.marker(
+                [-14.235, -51.9253],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_efb10c3f6c03316e3b05574a857a5f8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_492755a85184db7dc1f8c20115662e4c.setIcon(icon_efb10c3f6c03316e3b05574a857a5f8d);
+        
+    
+        var popup_2dfd0617b5c2ed26d9253cd1af74c686 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d17087d9c64d26277e9fbbdbdf544869 = $(`<div id="html_d17087d9c64d26277e9fbbdbdf544869" style="width: 100.0%; height: 100.0%;"><b>Braziles</b><br><a href="https://en.wikipedia.org/wiki/Brazil" target="_blank">Brazil</a></div>`)[0];
+            popup_2dfd0617b5c2ed26d9253cd1af74c686.setContent(html_d17087d9c64d26277e9fbbdbdf544869);
+        
+
+        marker_492755a85184db7dc1f8c20115662e4c.bindPopup(popup_2dfd0617b5c2ed26d9253cd1af74c686)
+        ;
+
+        
+    
+    
+            var marker_c4c52cb78c4c2603ca67f52b16a44e5c = L.marker(
+                [48.3904, -4.4861],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_0eda78195fa8c6ac45260327c2b9ccec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4c52cb78c4c2603ca67f52b16a44e5c.setIcon(icon_0eda78195fa8c6ac45260327c2b9ccec);
+        
+    
+        var popup_4ac888324e311f2de10f1010f8cb8603 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb976fd8d73641b40dd5b0d322ba155d = $(`<div id="html_fb976fd8d73641b40dd5b0d322ba155d" style="width: 100.0%; height: 100.0%;"><b>Brest</b><br><a href="https://en.wikipedia.org/wiki/Brest,_France" target="_blank">Brest, France</a></div>`)[0];
+            popup_4ac888324e311f2de10f1010f8cb8603.setContent(html_fb976fd8d73641b40dd5b0d322ba155d);
+        
+
+        marker_c4c52cb78c4c2603ca67f52b16a44e5c.bindPopup(popup_4ac888324e311f2de10f1010f8cb8603)
+        ;
+
+        
+    
+    
+            var marker_d1b03f94c45f4cc6b5e7ad0d4d066755 = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_1c990e2b4807f356df02670e08ea5aae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1b03f94c45f4cc6b5e7ad0d4d066755.setIcon(icon_1c990e2b4807f356df02670e08ea5aae);
+        
+    
+        var popup_04fb07b64c4b6d6768e1e0d5354b98d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13d40aa69ffac8689c6d5283736c68a3 = $(`<div id="html_13d40aa69ffac8689c6d5283736c68a3" style="width: 100.0%; height: 100.0%;"><b>Bridges</b></div>`)[0];
+            popup_04fb07b64c4b6d6768e1e0d5354b98d8.setContent(html_13d40aa69ffac8689c6d5283736c68a3);
+        
+
+        marker_d1b03f94c45f4cc6b5e7ad0d4d066755.bindPopup(popup_04fb07b64c4b6d6768e1e0d5354b98d8)
+        ;
+
+        
+    
+    
+            var marker_223b509a48363e291ea9af799e25a4b5 = L.marker(
+                [51.4545, -2.5879],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_19e038293ae069e52609fd80a994cffc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_223b509a48363e291ea9af799e25a4b5.setIcon(icon_19e038293ae069e52609fd80a994cffc);
+        
+    
+        var popup_e604ae5164a9768cf6c8e40690e4e82a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19f86c36f39735f3d95f5b049840c42e = $(`<div id="html_19f86c36f39735f3d95f5b049840c42e" style="width: 100.0%; height: 100.0%;"><b>Bristoll</b><br><a href="https://en.wikipedia.org/wiki/Bristol" target="_blank">Bristol</a></div>`)[0];
+            popup_e604ae5164a9768cf6c8e40690e4e82a.setContent(html_19f86c36f39735f3d95f5b049840c42e);
+        
+
+        marker_223b509a48363e291ea9af799e25a4b5.bindPopup(popup_e604ae5164a9768cf6c8e40690e4e82a)
+        ;
+
+        
+    
+    
+            var marker_83e43db87c38221588af28930eb4202f = L.marker(
+                [51.2093, 3.2247],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_e92c8121856e399115cbfcdfd0431621 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83e43db87c38221588af28930eb4202f.setIcon(icon_e92c8121856e399115cbfcdfd0431621);
+        
+    
+        var popup_7e1597e8c7f4ec6fb33f71824f79d386 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7b0dfa1ffa416ff1d7626c4cccc04d3 = $(`<div id="html_c7b0dfa1ffa416ff1d7626c4cccc04d3" style="width: 100.0%; height: 100.0%;"><b>Bruges</b><br><a href="https://en.wikipedia.org/wiki/Bruges" target="_blank">Bruges</a></div>`)[0];
+            popup_7e1597e8c7f4ec6fb33f71824f79d386.setContent(html_c7b0dfa1ffa416ff1d7626c4cccc04d3);
+        
+
+        marker_83e43db87c38221588af28930eb4202f.bindPopup(popup_7e1597e8c7f4ec6fb33f71824f79d386)
+        ;
+
+        
+    
+    
+            var marker_89c933d8a195a4029b707c636e82dba8 = L.marker(
+                [51.4515, 0.6072],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_58d31b11a7cc62b1eac465710fc089b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_89c933d8a195a4029b707c636e82dba8.setIcon(icon_58d31b11a7cc62b1eac465710fc089b0);
+        
+    
+        var popup_bd60829dc49887d0a0324043bf7da18c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4a13884b967e26a46d07adb83d64fc9 = $(`<div id="html_b4a13884b967e26a46d07adb83d64fc9" style="width: 100.0%; height: 100.0%;"><b>Buoy of Nore</b></div>`)[0];
+            popup_bd60829dc49887d0a0324043bf7da18c.setContent(html_b4a13884b967e26a46d07adb83d64fc9);
+        
+
+        marker_89c933d8a195a4029b707c636e82dba8.bindPopup(popup_bd60829dc49887d0a0324043bf7da18c)
+        ;
+
+        
+    
+    
+            var marker_96c9fdbc63d782bcecd9bb328108ffb5 = L.marker(
+                [44.8378, -0.5792],
+                {}
+            ).addTo(map_53a048431d2e1f456afbf4a52be22fa7);
+        
+    
+            var icon_fccb3094e29b8ecdb31b329c1f9be813 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_96c9fdbc63d782bcecd9bb328108ffb5.setIcon(icon_fccb3094e29b8ecdb31b329c1f9be813);
+        
+    
+        var popup_855eb0ce648d01084ac060d4b238de2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59b538a37480fffaa372adaeaba26b9a = $(`<div id="html_59b538a37480fffaa372adaeaba26b9a" style="width: 100.0%; height: 100.0%;"><b>Burdeaux</b><br><a href="https://en.wikipedia.org/wiki/Bordeaux" target="_blank">Bordeaux</a></div>`)[0];
+            popup_855eb0ce648d01084ac060d4b238de2a.setContent(html_59b538a37480fffaa372adaeaba26b9a);
+        
+
+        marker_96c9fdbc63d782bcecd9bb328108ffb5.bindPopup(popup_855eb0ce648d01084ac060d4b238de2a)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,10 @@
+# Manually searching for the relevant content within the file by examining the whole text content
+full_text = []
+
+for elem in root.iter():
+    if elem.tag == '{http://www.mediawiki.org/xml/export-0.10/}text':
+        full_text.append(elem.text)
+
+# Combining all text elements to a single string for searching
+combined_text = ''.join(filter(None, full_text))
+combined_text[:2000]  # Displaying the first 2000 characters to understand the text context better
